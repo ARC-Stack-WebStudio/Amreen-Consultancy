@@ -2,7 +2,7 @@
   "name": "amreen-consultancy",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://arc-stack-webstudio.github.io/Amreen-Consultancy/",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
