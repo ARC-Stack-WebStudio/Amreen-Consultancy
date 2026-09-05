@@ -3,12 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "homepage": "https://arc-stack-webstudio.github.io/Amreen-Consultancy/",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
+
   "dependencies": {
     "bootstrap": "^5.3.3",
     "lucide-react": "^0.468.0",

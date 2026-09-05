@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Amreen-Consultancy/static/css/main.86033145.css",
+    "main.js": "/Amreen-Consultancy/static/js/main.bd7e1e33.js",
+    "static/media/header-logo-full.jpg": "/Amreen-Consultancy/static/media/header-logo-full.7923a45b404baab3348e.jpg",
+    "static/media/header-logo-compact.jpg": "/Amreen-Consultancy/static/media/header-logo-compact.6df09037e60276ed733f.jpg",
+    "index.html": "/Amreen-Consultancy/index.html",
+    "main.86033145.css.map": "/Amreen-Consultancy/static/css/main.86033145.css.map",
+    "main.bd7e1e33.js.map": "/Amreen-Consultancy/static/js/main.bd7e1e33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86033145.css",
+    "static/js/main.bd7e1e33.js"
+  ]
+}
