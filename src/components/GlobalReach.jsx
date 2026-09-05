@@ -2,14 +2,14 @@ import { ArrowRight, MapPin } from 'lucide-react';
 import CountryCard from './CountryCard';
 
 const countries = [
-  { code: 'OM', name: 'Oman', focus: 'Industrial & Oil & Gas', featured: false },
+  { code: 'OM', name: 'Oman', focus: 'Industrial & Oil & Gas', featured: true },
   { code: 'SA', name: 'Saudi Arabia', focus: 'Construction & Oil & Gas', featured: false },
   { code: 'AE', name: 'United Arab Emirates', focus: 'Construction & Logistics', featured: false },
   { code: 'QA', name: 'Qatar', focus: 'Infrastructure & FM', featured: false },
   { code: 'PL', name: 'Poland', focus: 'Technical Specialists', featured: false },
   { code: 'KW', name: 'Kuwait', focus: 'Construction & Manufacturing', featured: false },
   { code: 'MU', name: 'Mauritius', focus: 'Skilled Workforce', featured: false },
-  { code: 'RU', name: 'Russia', focus: 'Primary Focus Market', featured: true },
+  { code: 'RU', name: 'Russia', focus: 'Primary Focus Market', featured: false },
 ];
 
 function WorldMap() {
