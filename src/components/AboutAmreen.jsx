@@ -24,8 +24,8 @@ export default function AboutAmreen({ navigate }) {
         <div className="col-12 col-lg-6">
           <div className="about-amreen-content">
             <p className="section-eyebrow">About AMREEN</p>
-            <span className="gold-divider" aria-hidden="true" />
-            <h2 id="about-amreen-heading">Connecting Talent With <span className="gold-text">Global Opportunities</span></h2>
+            <span className="brand-divider" aria-hidden="true" />
+            <h2 id="about-amreen-heading">Connecting Talent With <span className="brand-text">Global Opportunities</span></h2>
             <p>AMREEN CONSULTANCY is focused on connecting talented professionals with meaningful career opportunities across international markets. We help candidates move toward better career possibilities while supporting organizations in finding the right talent.</p>
             <p>With a commitment to professionalism, transparency, and long-term relationships, we aim to make the recruitment journey clear, reliable, and opportunity-focused.</p>
             <div className="about-points">

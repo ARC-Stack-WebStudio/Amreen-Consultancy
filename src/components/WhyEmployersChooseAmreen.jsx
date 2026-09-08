@@ -18,8 +18,8 @@ export default function WhyEmployersChooseAmreen() {
       <div className="container">
         <header className="employer-capabilities-heading text-center mx-auto">
           <p className="section-eyebrow">Why Employers Choose AMREEN</p>
-          <span className="gold-divider mx-auto" aria-hidden="true" />
-          <h2 id="why-amreen-heading">Trusted by <span className="gold-text">Industrial Employers Worldwide</span></h2>
+          <span className="brand-divider mx-auto" aria-hidden="true" />
+          <h2 id="why-amreen-heading">Trusted by <span className="brand-text">Industrial Employers Worldwide</span></h2>
           <p>We do not just recruit — we mobilise workforce at scale with rigorous standards and end-to-end management.</p>
         </header>
         <div className="row g-4">
