@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import CountryPage from "./pages/CountryPage";
+import Workforce from "./pages/Workforce";
+import Process from "./pages/Process";
 
 const pages = {
   home: Home,
@@ -17,6 +19,8 @@ const pages = {
   employers: ServicesPage,
   candidates: Jobs,
   contact: Contact,
+  workforce: Workforce,
+  process: Process,
   "country-oman": CountryPage,
   "country-saudi-arabia": CountryPage,
 };

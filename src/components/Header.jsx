@@ -7,10 +7,12 @@ import IndustryDropdown from './IndustryDropdown';
 const links = [
 	['home', 'Home'],
 	['about', 'About Us'],
-	['jobs', 'Jobs'],
-	['services', 'Services'],
-	['employers', 'For Employers'],
-	['candidates', 'For Candidates'],
+	['workforce', 'Workforce'],
+	['process', 'Process'],
+	// ['jobs', 'Jobs'],
+	// ['services', 'Services'],
+	// ['employers', 'For Employers'],
+	// ['candidates', 'For Candidates'],
 	['contact', 'Contact Us'],
 ];
 

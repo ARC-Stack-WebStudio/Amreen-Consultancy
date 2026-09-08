@@ -1,5 +1,5 @@
-import headerLogo from '../assets/Logo/header-logo-compact.jpg';
-import headerLogoFull from '../assets/Logo/header-logo-full.jpg';
+import headerLogo from '../assets/Logo/Amreen Blue Logo hortizontel.png';
+import headerLogoFull from '../assets/Logo/Amreen Blue Logo.png';
 
 export default function Brand({ light = false, full = false }) {
   return (
