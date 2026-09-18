@@ -5,15 +5,15 @@ import CountryDropdown from './CountryDropdown';
 import IndustryDropdown from './IndustryDropdown';
 
 const links = [
-	['home', 'Home'],
-	['about', 'About Us'],
-	['workforce', 'Workforce'],
-	['process', 'Process'],
+	['home', 'HOME'],
+    ['workforce', 'WORKFORCE'],
+	['process', 'PROCESS'],
 	// ['jobs', 'Jobs'],
 	// ['services', 'Services'],
 	// ['employers', 'For Employers'],
 	// ['candidates', 'For Candidates'],
-	['contact', 'Contact Us'],
+	['about', 'ABOUT'],
+	['contact', 'CONTACT US'],
 ];
 
 export default function Header({ page, navigate }) {
