@@ -42,7 +42,7 @@ export default function IndustryDropdown({ page, navigate, mobile = false }) {
         onClick={() => setOpen((value) => !value)}
         onFocus={() => setOpen(true)}
       >
-        <span>Industries</span>
+        <span>INDUSTRIES</span>
         <ChevronDown aria-hidden="true" className="countries-trigger-icon" />
       </button>
 

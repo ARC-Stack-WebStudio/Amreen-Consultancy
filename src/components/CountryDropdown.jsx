@@ -44,7 +44,7 @@ export default function CountryDropdown({ page, navigate, mobile = false }) {
         onClick={() => setOpen((value) => !value)}
         onFocus={() => setOpen(true)}
       >
-        <span>Countries</span>
+        <span>COUNTRIES</span>
         <ChevronDown aria-hidden="true" className="countries-trigger-icon" />
       </button>
 

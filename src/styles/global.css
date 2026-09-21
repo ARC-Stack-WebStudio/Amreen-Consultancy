@@ -155,12 +155,8 @@ h2 em {
   position: sticky;
   top: 0;
   z-index: 20;
-<<<<<<< HEAD
-  background: rgba(6, 59, 115, 0.92);
-=======
   /* background: rgba(6, 59, 115, 0.92); */
   background: #fff;
->>>>>>> origin/Ashnab-New
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   transition:
@@ -206,11 +202,6 @@ h2 em {
 .desktop-nav button {
   font-size: 0.79rem;
   font-weight: 600;
-<<<<<<< HEAD
-  color: var(--color-silver);
-  padding: 6px 0;
-}
-=======
   color: var(--color-sky-blue);
   padding: 6px 0;
 }
@@ -220,7 +211,6 @@ h2 em {
 }
 
 
->>>>>>> origin/Ashnab-New
 .desktop-nav button:hover,
 .desktop-nav .active {
   color: var(--color-sky-blue);
@@ -1926,11 +1916,7 @@ footer button:hover {
   display: grid;
   min-width: 255px;
   padding: 10px;
-<<<<<<< HEAD
-  background: rgba(6, 59, 115, 0.96);
-=======
   background: #fff;
->>>>>>> origin/Ashnab-New
   border: 1px solid rgba(21, 159, 224, 0.34);
   border-radius: 14px;
   box-shadow: 0 18px 38px rgba(6, 59, 115, 0.35);
@@ -1938,15 +1924,12 @@ footer button:hover {
   z-index: 30;
 }
 
-<<<<<<< HEAD
-=======
 .site-header.is-scrolled .country-dropdown-panel {
     background: rgba(6, 59, 115, 0.96);
 
 }
 
 
->>>>>>> origin/Ashnab-New
 @keyframes countryDropdownIn {
   from {
     opacity: 0;
