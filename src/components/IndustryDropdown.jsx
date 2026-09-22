@@ -22,9 +22,9 @@ export default function IndustryDropdown({ page, navigate, mobile = false }) {
     };
   }, []);
 
-  const handleSelect = () => {
+  const handleSelect = (industry) => {
     setOpen(false);
-    navigate('jobs');
+    navigate(industry.pageId || 'jobs');
   };
 
   return (
@@ -36,7 +36,7 @@ export default function IndustryDropdown({ page, navigate, mobile = false }) {
     >
       <button
         type="button"
-        className={`countries-trigger industries-trigger ${page === 'jobs' ? 'active' : ''} ${open ? 'open' : ''}`}
+        className={`countries-trigger industries-trigger ${page === 'jobs' || page === 'industry-construction' ? 'active' : ''} ${open ? 'open' : ''}`}
         aria-expanded={open}
         aria-haspopup="menu"
         onClick={() => setOpen((value) => !value)}
@@ -50,13 +50,13 @@ export default function IndustryDropdown({ page, navigate, mobile = false }) {
         <div className="country-dropdown-panel industry-dropdown-panel" role="menu" aria-label="Industries dropdown">
           {INDUSTRY_OPTIONS.map((industry) => (
             <button
-              key={industry}
+              key={industry.label}
               type="button"
               className="country-dropdown-item country-dropdown-item-enabled"
               role="menuitem"
-              onClick={handleSelect}
+              onClick={() => handleSelect(industry)}
             >
-              {industry}
+              {industry.label}
             </button>
           ))}
         </div>

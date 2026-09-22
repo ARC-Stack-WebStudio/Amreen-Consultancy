@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import CountryPage from "./pages/CountryPage";
 import Workforce from "./pages/Workforce";
 import Process from "./pages/Process";
+import ConstructionIndustry from "./pages/ConstructionIndustry";
 
 const pages = {
   home: Home,
@@ -21,8 +22,15 @@ const pages = {
   contact: Contact,
   workforce: Workforce,
   process: Process,
+  "industry-construction": ConstructionIndustry,
   "country-oman": CountryPage,
   "country-saudi-arabia": CountryPage,
+  "country-united-arab-emirates": CountryPage,
+  "country-qatar": CountryPage,
+  "country-poland": CountryPage,
+  "country-kuwait": CountryPage,
+  "country-mauritius": CountryPage,
+  "country-russia": CountryPage,
 };
 
 export default function App() {
