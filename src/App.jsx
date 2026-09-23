@@ -11,6 +11,8 @@ import CountryPage from "./pages/CountryPage";
 import Workforce from "./pages/Workforce";
 import Process from "./pages/Process";
 import ConstructionIndustry from "./pages/ConstructionIndustry";
+import ManufacturingIndustry from "./pages/Manufacturing";
+import Petrochemicals from "./pages/Petrochemicals";
 
 const pages = {
   home: Home,
@@ -23,6 +25,8 @@ const pages = {
   workforce: Workforce,
   process: Process,
   "industry-construction": ConstructionIndustry,
+  "industry-manufacturing": ManufacturingIndustry,
+  "industry-petrochemicals": Petrochemicals,
   "country-oman": CountryPage,
   "country-saudi-arabia": CountryPage,
   "country-united-arab-emirates": CountryPage,

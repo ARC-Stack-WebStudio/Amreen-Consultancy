@@ -1,7 +1,7 @@
 export const INDUSTRY_OPTIONS = [
   { label: 'Construction', pageId: 'industry-construction' },
-  { label: 'Manufacturing' },
-  { label: 'Petrochemicals' },
+  { label: 'Manufacturing' , pageId: 'industry-manufacturing' },
+  { label: 'Petrochemicals' , pageId: 'industry-petrochemicals' }, 
   { label: 'Mining' },
   { label: 'Oil & Gas' },
   { label: 'Logistics' },
