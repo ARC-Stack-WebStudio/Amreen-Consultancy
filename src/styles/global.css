@@ -1971,6 +1971,163 @@ footer button:hover {
   background: var(--gradient-navy);
 }
 
+.country-hero--saudi {
+  isolation: isolate;
+}
+
+.country-hero--uae {
+  isolation: isolate;
+}
+
+.country-hero--qatar {
+  isolation: isolate;
+}
+
+.saudi-hero-visual,
+.uae-hero-visual,
+.qatar-hero-visual {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+}
+
+.saudi-hero-visual::after,
+.uae-hero-visual::after,
+.qatar-hero-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(6, 59, 115, 0.9) 0%,
+    rgba(6, 59, 115, 0.68) 37%,
+    rgba(6, 59, 115, 0.18) 67%,
+    rgba(6, 59, 115, 0.04) 100%
+  );
+}
+
+.saudi-hero-visual img,
+.uae-hero-visual img,
+.qatar-hero-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 767.98px) {
+  .saudi-hero-visual::after,
+  .uae-hero-visual::after,
+  .qatar-hero-visual::after {
+    background: linear-gradient(
+      to bottom,
+      rgba(6, 59, 115, 0.88) 0%,
+      rgba(6, 59, 115, 0.66) 48%,
+      rgba(6, 59, 115, 0.22) 100%
+    );
+  }
+
+  .saudi-hero-visual img,
+  .uae-hero-visual img,
+  .qatar-hero-visual img {
+    object-position: 62% center;
+  }
+}
+
+/* Oman hero: the local artwork stays sharp at the right and dissolves into the page background at its left edge. */
+.country-hero--oman {
+  min-height: 500px;
+  isolation: isolate;
+}
+
+.country-hero--oman .container {
+  padding-right: 52%;
+}
+
+.country-hero--oman h1,
+.country-hero--oman p:last-child {
+  max-width: none;
+}
+
+.oman-hero-visual {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  display: flex;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+.oman-hero-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(6, 59, 115, 0.92) 0%,
+    rgba(6, 59, 115, 0.76) 31%,
+    rgba(6, 59, 115, 0.38) 58%,
+    rgba(6, 59, 115, 0.1) 79%,
+    transparent 100%
+  );
+}
+
+.oman-hero-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: right center;
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.78) 37%, #000 82%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.78) 37%, #000 82%);
+}
+
+@media (max-width: 991.98px) {
+  .country-hero--oman {
+    min-height: 440px;
+  }
+
+  .country-hero--oman .container {
+    padding-right: 47%;
+  }
+
+  .oman-hero-visual img {
+    object-position: right center;
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.82) 36%, #000 80%);
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.82) 36%, #000 80%);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .country-hero--oman {
+    min-height: 0;
+    padding-bottom: 32px;
+  }
+
+  .country-hero--oman .container {
+    padding-right: 12px;
+  }
+
+  .oman-hero-visual {
+    position: relative;
+    inset: auto;
+    width: min(88vw, 350px);
+    height: 420px;
+    margin: 28px auto 0;
+  }
+
+  .oman-hero-visual img {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .oman-hero-visual::after {
+    display: none;
+  }
+}
+
 .country-visual {
   position: relative;
   overflow: hidden;

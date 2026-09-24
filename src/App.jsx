@@ -13,6 +13,15 @@ import Process from "./pages/Process";
 import ConstructionIndustry from "./pages/ConstructionIndustry";
 import ManufacturingIndustry from "./pages/Manufacturing";
 import Petrochemicals from "./pages/Petrochemicals";
+import Mining from "./pages/Mining";
+import OilGas from "./pages/Oil & Gas";
+import Logistics from "./pages/Logistics";  
+import Marine from "./pages/Marine";
+import Infrastructure from "./pages/Infrastructure.jsx";
+import Warehousing from "./pages/Warehousing.jsx";
+import Shipbuilding from "./pages/Shipbuilding.jsx";
+import FoodProcessing from "./pages/FoodProcessing.jsx";
+import Hospitality from "./pages/Hospitality.jsx";
 
 const pages = {
   home: Home,
@@ -27,6 +36,15 @@ const pages = {
   "industry-construction": ConstructionIndustry,
   "industry-manufacturing": ManufacturingIndustry,
   "industry-petrochemicals": Petrochemicals,
+  "industry-mining": Mining,
+  "industry-oil-gas": OilGas,
+  "industry-logistics": Logistics,
+  "industry-marine": Marine,
+  "industry-infrastructure": Infrastructure,
+  "industry-warehousing": Warehousing,
+  "industry-shipbuilding": Shipbuilding,
+  "industry-food-processing": FoodProcessing,
+  "industry-hospitality": Hospitality,
   "country-oman": CountryPage,
   "country-saudi-arabia": CountryPage,
   "country-united-arab-emirates": CountryPage,
