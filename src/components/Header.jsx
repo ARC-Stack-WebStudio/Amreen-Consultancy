@@ -46,7 +46,7 @@ export default function Header({ page, navigate }) {
 			<div className="container">
 				<div className="header-inner">
 					<button className="brand-button" onClick={() => go('home')}>
-						<Brand />
+						<Brand light={scrolled} />
 					</button>
 
 					<nav className="desktop-nav" aria-label="Main navigation">

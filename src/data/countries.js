@@ -1,4 +1,10 @@
-import omanImage from "../assets/Imgs/Oman Oil&Industry Image.png";
+import SaudiConstruction from "../assets/Imgs/Saudi Arabia Construcion.png"
+import UAEPackageing from "../assets/Imgs/UAE Packageing.png"
+import QatarInfrastrctureAndFN from "../assets/Imgs/Qatar Infrastrcture AndFN.png"
+import PolandTechnicalSpecialist from "../assets/Imgs/Poland Technical Specialist.png"
+import KuwaitConstructionAndManufacturing from "../assets/Imgs/Kuwait Construction & Manufacturing.png"
+import MauritiusSkilledWorkforce  from "../assets/Imgs/Mauritius Skilled Workforce.png"
+import RussiaPrimaryFocusMarket from "../assets/Imgs/Russia Primary Focus Market.png"
 
 export const COUNTRY_OPTIONS = [
   {
@@ -93,10 +99,8 @@ export const COUNTRY_OPTIONS = [
       "Engineering",
       "Facilities Management",
     ],
-    image:
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
-    imageAlt:
-      "Dubai skyline representing business opportunities in the United Arab Emirates",
+    image: SaudiConstruction ,
+    imageAlt: 'Corporate recruitment and workforce planning discussion in a professional environment',
   },
   {
     key: "qatar",
@@ -125,10 +129,8 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Engineering",
     ],
-    image:
-      "https://images.unsplash.com/photo-1565552645632-d725f8bfc19a?auto=format&fit=crop&w=1200&q=80",
-    imageAlt:
-      "Doha skyline representing professional workforce opportunities in Qatar",
+    image: UAEPackageing,
+    imageAlt: 'Dubai skyline representing business opportunities in the United Arab Emirates',
   },
   {
     key: "poland",
@@ -157,10 +159,8 @@ export const COUNTRY_OPTIONS = [
       "Automotive",
       "Warehousing",
     ],
-    image:
-      "https://images.unsplash.com/photo-1519197924294-4ba991a04a66?auto=format&fit=crop&w=1200&q=80",
-    imageAlt:
-      "Warsaw cityscape representing employment opportunities in Poland",
+    image: QatarInfrastrctureAndFN,
+    imageAlt: 'Doha skyline representing professional workforce opportunities in Qatar',
   },
   {
     key: "kuwait",
@@ -189,10 +189,8 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Hospitality",
     ],
-    image:
-      "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
-    imageAlt:
-      "Kuwait City skyline representing business and workforce opportunities in Kuwait",
+    image: PolandTechnicalSpecialist,
+    imageAlt: 'Warsaw cityscape representing employment opportunities in Poland',
   },
   {
     key: "mauritius",
@@ -221,10 +219,8 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Facilities Management",
     ],
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-    imageAlt:
-      "Mauritian coastline representing hospitality and employment opportunities in Mauritius",
+    image: KuwaitConstructionAndManufacturing,
+    imageAlt: 'Kuwait City skyline representing business and workforce opportunities in Kuwait',
   },
   {
     key: "russia",
@@ -253,10 +249,36 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Industrial Services",
     ],
-    image:
-      "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&w=1200&q=80",
-    imageAlt:
-      "Moscow cityscape representing professional workforce opportunities in Russia",
+    image: MauritiusSkilledWorkforce,
+    imageAlt: 'Mauritian coastline representing hospitality and employment opportunities in Mauritius',
+  },
+  {
+    key: 'russia',
+    label: 'Russia',
+    pageId: 'country-russia',
+    heroEyebrow: 'RUSSIA',
+    heading: 'Trusted Manpower Solutions for Russia Employers',
+    heroIntro: 'AMREEN CONSULTANCY supports employers in Russia with international recruitment solutions for industrial, construction and technical workforce requirements.',
+    contentHeading: 'International workforce support for Russia-based projects',
+    summary: 'We help employers access capable candidates through a coordinated recruitment process that supports screening, documentation and workforce mobilisation needs.',
+    bullets: [
+      'International recruitment',
+      'Technical and skilled workforce',
+      'Candidate screening',
+      'Workforce mobilisation',
+      'Documentation support',
+      'Employer support',
+    ],
+    sectors: [
+      'Construction & Infrastructure',
+      'Manufacturing',
+      'Engineering',
+      'Oil & Gas',
+      'Logistics',
+      'Industrial Services',
+    ],
+    image: RussiaPrimaryFocusMarket,
+    imageAlt: 'Moscow cityscape representing professional workforce opportunities in Russia',
   },
 ];
 
