@@ -1,3 +1,11 @@
+import SaudiConstruction from "../assets/Imgs/Saudi Arabia Construcion.png"
+import UAEPackageing from "../assets/Imgs/UAE Packageing.png"
+import QatarInfrastrctureAndFN from "../assets/Imgs/Qatar Infrastrcture AndFN.png"
+import PolandTechnicalSpecialist from "../assets/Imgs/Poland Technical Specialist.png"
+import KuwaitConstructionAndManufacturing from "../assets/Imgs/Kuwait Construction & Manufacturing.png"
+import MauritiusSkilledWorkforce  from "../assets/Imgs/Mauritius Skilled Workforce.png"
+import RussiaPrimaryFocusMarket from "../assets/Imgs/Russia Primary Focus Market.png"
+
 export const COUNTRY_OPTIONS = [
   {
     key: 'oman',
@@ -55,8 +63,7 @@ export const COUNTRY_OPTIONS = [
       'Logistics',
       'Hospitality',
     ],
-    image:
-      'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
+    image: SaudiConstruction ,
     imageAlt: 'Corporate recruitment and workforce planning discussion in a professional environment',
   },
   {
@@ -84,7 +91,7 @@ export const COUNTRY_OPTIONS = [
       'Engineering',
       'Facilities Management',
     ],
-    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80',
+    image: UAEPackageing,
     imageAlt: 'Dubai skyline representing business opportunities in the United Arab Emirates',
   },
   {
@@ -112,7 +119,7 @@ export const COUNTRY_OPTIONS = [
       'Logistics',
       'Engineering',
     ],
-    image: 'https://images.unsplash.com/photo-1565552645632-d725f8bfc19a?auto=format&fit=crop&w=1200&q=80',
+    image: QatarInfrastrctureAndFN,
     imageAlt: 'Doha skyline representing professional workforce opportunities in Qatar',
   },
   {
@@ -140,7 +147,7 @@ export const COUNTRY_OPTIONS = [
       'Automotive',
       'Warehousing',
     ],
-    image: 'https://images.unsplash.com/photo-1519197924294-4ba991a04a66?auto=format&fit=crop&w=1200&q=80',
+    image: PolandTechnicalSpecialist,
     imageAlt: 'Warsaw cityscape representing employment opportunities in Poland',
   },
   {
@@ -168,7 +175,7 @@ export const COUNTRY_OPTIONS = [
       'Logistics',
       'Hospitality',
     ],
-    image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80',
+    image: KuwaitConstructionAndManufacturing,
     imageAlt: 'Kuwait City skyline representing business and workforce opportunities in Kuwait',
   },
   {
@@ -196,7 +203,7 @@ export const COUNTRY_OPTIONS = [
       'Logistics',
       'Facilities Management',
     ],
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+    image: MauritiusSkilledWorkforce,
     imageAlt: 'Mauritian coastline representing hospitality and employment opportunities in Mauritius',
   },
   {
@@ -224,7 +231,7 @@ export const COUNTRY_OPTIONS = [
       'Logistics',
       'Industrial Services',
     ],
-    image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&w=1200&q=80',
+    image: RussiaPrimaryFocusMarket,
     imageAlt: 'Moscow cityscape representing professional workforce opportunities in Russia',
   },
 ];
