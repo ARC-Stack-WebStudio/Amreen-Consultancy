@@ -1,3 +1,4 @@
+import omanImage from "../assets/Imgs/Oman Oil&Industry Image.png"
 import SaudiConstruction from "../assets/Imgs/Saudi Arabia Construcion.png"
 import UAEPackageing from "../assets/Imgs/UAE Packageing.png"
 import QatarInfrastrctureAndFN from "../assets/Imgs/Qatar Infrastrcture AndFN.png"
@@ -66,8 +67,7 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Hospitality",
     ],
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+    image: SaudiConstruction,
     imageAlt:
       "Corporate recruitment and workforce planning discussion in a professional environment",
   },
@@ -99,7 +99,7 @@ export const COUNTRY_OPTIONS = [
       "Engineering",
       "Facilities Management",
     ],
-    image: SaudiConstruction ,
+    image: UAEPackageing ,
     imageAlt: 'Corporate recruitment and workforce planning discussion in a professional environment',
   },
   {
@@ -129,7 +129,7 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Engineering",
     ],
-    image: UAEPackageing,
+    image: QatarInfrastrctureAndFN,
     imageAlt: 'Dubai skyline representing business opportunities in the United Arab Emirates',
   },
   {
@@ -159,8 +159,8 @@ export const COUNTRY_OPTIONS = [
       "Automotive",
       "Warehousing",
     ],
-    image: QatarInfrastrctureAndFN,
-    imageAlt: 'Doha skyline representing professional workforce opportunities in Qatar',
+    image: PolandTechnicalSpecialist,
+    imageAlt: 'Warsaw cityscape representing employment opportunities in Poland',
   },
   {
     key: "kuwait",
@@ -189,7 +189,7 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Hospitality",
     ],
-    image: PolandTechnicalSpecialist,
+    image: KuwaitConstructionAndManufacturing ,
     imageAlt: 'Warsaw cityscape representing employment opportunities in Poland',
   },
   {
@@ -219,8 +219,8 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Facilities Management",
     ],
-    image: KuwaitConstructionAndManufacturing,
-    imageAlt: 'Kuwait City skyline representing business and workforce opportunities in Kuwait',
+    image: MauritiusSkilledWorkforce,
+    imageAlt: 'Mauritian coastline representing hospitality and employment opportunities in Mauritius',
   },
   {
     key: "russia",
@@ -249,36 +249,8 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Industrial Services",
     ],
-    image: MauritiusSkilledWorkforce,
-    imageAlt: 'Mauritian coastline representing hospitality and employment opportunities in Mauritius',
-  },
-  {
-    key: 'russia',
-    label: 'Russia',
-    pageId: 'country-russia',
-    heroEyebrow: 'RUSSIA',
-    heading: 'Trusted Manpower Solutions for Russia Employers',
-    heroIntro: 'AMREEN CONSULTANCY supports employers in Russia with international recruitment solutions for industrial, construction and technical workforce requirements.',
-    contentHeading: 'International workforce support for Russia-based projects',
-    summary: 'We help employers access capable candidates through a coordinated recruitment process that supports screening, documentation and workforce mobilisation needs.',
-    bullets: [
-      'International recruitment',
-      'Technical and skilled workforce',
-      'Candidate screening',
-      'Workforce mobilisation',
-      'Documentation support',
-      'Employer support',
-    ],
-    sectors: [
-      'Construction & Infrastructure',
-      'Manufacturing',
-      'Engineering',
-      'Oil & Gas',
-      'Logistics',
-      'Industrial Services',
-    ],
     image: RussiaPrimaryFocusMarket,
-    imageAlt: 'Moscow cityscape representing professional workforce opportunities in Russia',
+    imageAlt: 'Mauritian coastline representing hospitality and employment opportunities in Mauritius',
   },
 ];
 
