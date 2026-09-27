@@ -16,12 +16,36 @@ import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  {
+    title: 'Process Engineers & Chemical Engineers',
+    text: 'Engineers who support plant processes, production activities, and chemical operations.',
+    icon: Ruler,
+  },
+  {
+    title: 'Plant Operators & Control Room Operators',
+    text: 'Trained operators who monitor equipment and help keep plant operations running smoothly.',
+    icon: Settings2,
+  },
+  {
+    title: 'Mechanical Technicians & Maintenance Supervisors',
+    text: 'Technical professionals who handle equipment maintenance and support reliable plant operations.',
+    icon: Wrench,
+  },
+  {
+    title: 'Instrumentation & Electrical Technicians',
+    text: 'Skilled technicians who work with plant instruments, control systems, and electrical equipment.',
+    icon: Cable,
+  },
+  {
+    title: 'Pipe Fitters, Welders & Fabricators',
+    text: 'Experienced tradespeople for piping, welding, fabrication, and industrial installation work.',
+    icon: Hammer,
+  },
+  {
+    title: 'HSE Officers, Inspectors & Safety Professionals',
+    text: 'Safety professionals who help maintain safe working practices and support site safety requirements.',
+    icon: Settings2,
+  },
 ];
 
 export default function Petrochemicals({ navigate }) {
@@ -30,24 +54,45 @@ export default function Petrochemicals({ navigate }) {
       <section className="construction-hero">
         <div className="container">
           <div className="row align-items-center g-5">
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow"> Petrochemicals Industry expertise</p>
-              <h1>Construction <em>Workforce</em> Solutions</h1>
-              <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+              <p className="construction-eyebrow">
+                Petrochemical & Industrial Recruitment
               </p>
-              <button className="btn btn-primary" onClick={() => navigate('contact')}>
+
+              <h1>
+                Petrochemical <em>Workforce</em> Solutions
+              </h1>
+
+              <p className="construction-hero-copy">
+                AMREEN CONSULTANCY helps petrochemical companies, refineries,
+                chemical plants, and industrial facilities find skilled and
+                experienced professionals for their workforce needs.
+              </p>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => navigate('contact')}
+              >
                 Request Manpower <ArrowRight />
               </button>
             </div>
+
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div
+                className="construction-hero-placeholder"
+                role="img"
+                aria-label="Petrochemical and industrial workforce image placeholder"
+              >
                 <div className="construction-placeholder-grid" />
+
                 <HardHat aria-hidden="true" />
-                <span>Construction industry visual</span>
-                <small>Image coming soon</small>
+
+                <span>Petrochemical Industry Workforce</span>
+                <small>Skilled manpower for industrial operations</small>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -55,26 +100,53 @@ export default function Petrochemicals({ navigate }) {
       <section className="section construction-intro">
         <div className="container">
           <div className="row g-5 align-items-center">
+
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img
+                  src={workforceHero}
+                  alt="Petrochemical and industrial professional at a plant"
+                />
+
+                <div className="construction-image-note">
+                  <Truck aria-hidden="true" /> Industrial Workforce Support
+                </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
-              <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+              <p className="construction-eyebrow">
+                Petrochemical Recruitment
               </p>
+
+              <h2>
+                Skilled people for safe and reliable plant operations.
+              </h2>
+
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                AMREEN CONSULTANCY helps petrochemical companies, refineries,
+                chemical plants, and industrial facilities find experienced
+                professionals for their workforce requirements.
               </p>
+
+              <p>
+                We provide engineers, technicians, plant operators, maintenance
+                workers, safety professionals, welders, and other skilled workers
+                for plant operations, maintenance, shutdowns, and industrial
+                projects.
+              </p>
+
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span>
+                  <UsersRound aria-hidden="true" /> Skilled & screened professionals
+                </span>
+
+                <span>
+                  <MoveUpRight aria-hidden="true" /> Recruitment & deployment support
+                </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>

@@ -16,12 +16,36 @@ import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  {
+    title: 'Logistics Supervisors & Operations Managers',
+    text: 'Professionals who manage daily logistics activities, teams, and overall operations.',
+    icon: ClipboardCheck,
+  },
+  {
+    title: 'Warehouse Supervisors & Warehouse Assistants',
+    text: 'Workers who help manage warehouse activities, stock movement, packing, and daily tasks.',
+    icon: Hammer,
+  },
+  {
+    title: 'Forklift Operators & Material Handling Operators',
+    text: 'Trained operators who safely move, load, and unload goods and materials.',
+    icon: Ruler,
+  },
+  {
+    title: 'Inventory Controllers & Storekeepers',
+    text: 'Staff who manage stock records, check inventory, and keep warehouse materials organised.',
+    icon: Settings2,
+  },
+  {
+    title: 'Truck Drivers, Delivery Drivers & Transport Operators',
+    text: 'Experienced drivers who support safe and timely transportation and delivery of goods.',
+    icon: Truck,
+  },
+  {
+    title: 'Supply Chain Coordinators & Freight Documentation Staff',
+    text: 'Professionals who coordinate shipments, logistics activities, and required transport documents.',
+    icon:  Cable,
+  },
 ];
 
 export default function Logistics({ navigate }) {
@@ -30,24 +54,45 @@ export default function Logistics({ navigate }) {
       <section className="construction-hero">
         <div className="container">
           <div className="row align-items-center g-5">
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Logistics Industry expertise</p>
-              <h1>Logistics <em>Workforce</em> Solutions</h1>
-              <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+              <p className="construction-eyebrow">
+                Logistics & Supply Chain Recruitment
               </p>
-              <button className="btn btn-primary" onClick={() => navigate('contact')}>
+
+              <h1>
+                Logistics <em>Workforce</em> Solutions
+              </h1>
+
+              <p className="construction-hero-copy">
+                AMREEN CONSULTANCY helps logistics companies, warehouses,
+                transportation businesses, and distribution centers find
+                skilled and reliable workers for their daily operations.
+              </p>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => navigate('contact')}
+              >
                 Request Manpower <ArrowRight />
               </button>
             </div>
+
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div
+                className="construction-hero-placeholder"
+                role="img"
+                aria-label="Logistics and supply chain workforce image placeholder"
+              >
                 <div className="construction-placeholder-grid" />
+
                 <HardHat aria-hidden="true" />
-                <span>Construction industry visual</span>
-                <small>Image coming soon</small>
+
+                <span>Logistics Industry Workforce</span>
+                <small>Skilled manpower for supply chain operations</small>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -55,26 +100,53 @@ export default function Logistics({ navigate }) {
       <section className="section construction-intro">
         <div className="container">
           <div className="row g-5 align-items-center">
+
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img
+                  src={workforceHero}
+                  alt="Logistics professional working in a warehouse and supply chain environment"
+                />
+
+                <div className="construction-image-note">
+                  <Truck aria-hidden="true" /> Logistics Workforce Support
+                </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
-              <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+              <p className="construction-eyebrow">
+                Logistics Recruitment
               </p>
+
+              <h2>
+                Reliable people for smooth logistics operations.
+              </h2>
+
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                AMREEN CONSULTANCY helps logistics companies, warehouses,
+                transportation providers, and distribution centers find reliable
+                workers for their day-to-day operations.
               </p>
+
+              <p>
+                We provide drivers, warehouse workers, forklift operators,
+                logistics coordinators, inventory staff, delivery personnel,
+                and other skilled workers to support efficient supply chain
+                operations in India and overseas.
+              </p>
+
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span>
+                  <UsersRound aria-hidden="true" /> Skilled & screened workers
+                </span>
+
+                <span>
+                  <MoveUpRight aria-hidden="true" /> Recruitment & deployment support
+                </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>

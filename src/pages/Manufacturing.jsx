@@ -15,13 +15,38 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  {
+    title: 'Production Supervisors & Plant Managers',
+    text: 'Experienced professionals who manage production teams and help keep plant operations running smoothly.',
+    icon: ClipboardCheck,
+  },
+  {
+    title: 'Machine Operators & Production Workers',
+    text: 'Skilled workers who handle machines and support daily manufacturing and production activities.',
+    icon: Settings2,
+  },
+  {
+    title: 'CNC Operators & CNC Programmers',
+    text: 'Trained CNC professionals who operate machines and manage accurate production work.',
+    icon: Ruler,
+  },
+  {
+    title: 'Quality Control Inspectors & Technicians',
+    text: 'Professionals who check products, materials, and processes to maintain required quality standards.',
+    icon: Ruler,
+  },
+  {
+    title: 'Welders, Fabricators & Industrial Fitters',
+    text: 'Skilled tradespeople experienced in welding, fabrication, fitting, and industrial assembly work.',
+    icon: Hammer,
+  },
+  {
+    title: 'Maintenance Technicians & Industrial Electricians',
+    text: 'Technical professionals who help maintain machinery, electrical systems, and smooth plant operations.',
+    icon: Wrench,
+  },
 ];
 
 export default function ManufacturingIndustry({ navigate }) {
@@ -30,24 +55,44 @@ export default function ManufacturingIndustry({ navigate }) {
       <section className="construction-hero">
         <div className="container">
           <div className="row align-items-center g-5">
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow"> Manufacturing Industry expertise</p>
-              <h1>Construction <em>Workforce</em> Solutions</h1>
-              <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+              <p className="construction-eyebrow">
+                Manufacturing & Industrial Recruitment
               </p>
-              <button className="btn btn-primary" onClick={() => navigate('contact')}>
-                Request Manpower <ArrowRight />
+
+              <h1>
+                Manufacturing <em>Workforce</em> Solutions
+              </h1>
+
+              <p className="construction-hero-copy">
+                Amreen Consultancy helps manufacturing companies, factories,
+                production units, and engineering businesses find reliable and
+                skilled workers for opportunities in India and overseas.
+              </p>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => navigate('contact')}
+              >
+                Find Skilled Workforce <ArrowRight />
               </button>
             </div>
+
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div
+                className="construction-hero-placeholder"
+                role="img"
+                aria-label="Manufacturing and industrial workforce image placeholder"
+              >
                 <div className="construction-placeholder-grid" />
                 <HardHat aria-hidden="true" />
-                <span>Construction industry visual</span>
-                <small>Image coming soon</small>
+
+                <span>Manufacturing & Industrial Workforce</span>
+                <small>Professional recruitment solutions</small>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -55,26 +100,53 @@ export default function ManufacturingIndustry({ navigate }) {
       <section className="section construction-intro">
         <div className="container">
           <div className="row g-5 align-items-center">
+
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img
+                  src={workforceHero}
+                  alt="Skilled manufacturing worker at an industrial workplace"
+                />
+
+                <div className="construction-image-note">
+                  <Truck aria-hidden="true" /> Workforce for Industry
+                </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
-              <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+              <p className="construction-eyebrow">
+                Manufacturing Recruitment
               </p>
+
+              <h2>
+                The right people for smooth and efficient operations.
+              </h2>
+
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                AMREEN CONSULTANCY helps manufacturing companies and industrial
+                businesses find skilled and dependable workers for their workforce
+                needs. We focus on finding people who are suitable for the job,
+                workplace, and required skills.
               </p>
+
+              <p>
+                We provide production workers, machine operators, technicians,
+                supervisors, engineers, and other skilled professionals for
+                manufacturing and industrial roles in India and overseas.
+              </p>
+
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span>
+                  <UsersRound aria-hidden="true" /> Skilled and screened candidates
+                </span>
+
+                <span>
+                  <MoveUpRight aria-hidden="true" /> Recruitment & deployment support
+                </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>

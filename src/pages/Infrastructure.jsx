@@ -16,12 +16,36 @@ import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  {
+    title: 'Civil Engineers & Site Engineers',
+    text: 'Experienced engineers who support project planning, site execution, technical work, and daily construction activities.',
+    icon: Ruler,
+  },
+  {
+    title: 'Project Managers & Construction Supervisors',
+    text: 'Professionals who manage site teams, coordinate work, and help keep infrastructure projects on schedule.',
+    icon: ClipboardCheck,
+  },
+  {
+    title: 'Heavy Equipment Operators',
+    text: 'Trained operators for excavators, loaders, cranes, and other heavy equipment used on infrastructure projects.',
+    icon: Settings2,
+  },
+  {
+    title: 'Surveyors & Quality Control Inspectors',
+    text: 'Professionals who support site surveying, measurements, inspections, and quality checks during project execution.',
+    icon: Wrench,
+  },
+  {
+    title: 'Steel Fixers, Masons & Concrete Workers',
+    text: 'Skilled workers experienced in reinforcement, masonry, concrete work, and other essential construction activities.',
+    icon: Hammer,
+  },
+  {
+    title: 'Electricians, Plumbers & Utility Technicians',
+    text: 'Technical workers who handle electrical, plumbing, utility, and related installation and maintenance work.',
+    icon: Cable,
+  },
 ];
 
 export default function Infrastructure({ navigate }) {
@@ -30,24 +54,45 @@ export default function Infrastructure({ navigate }) {
       <section className="construction-hero">
         <div className="container">
           <div className="row align-items-center g-5">
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">InfrastructureIndustry expertise</p>
-              <h1>Infrastructure <em>Workforce</em> Solutions</h1>
-              <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+              <p className="construction-eyebrow">
+                Infrastructure Industry Recruitment
               </p>
-              <button className="btn btn-primary" onClick={() => navigate('contact')}>
+
+              <h1>
+                Infrastructure <em>Workforce</em> Solutions
+              </h1>
+
+              <p className="construction-hero-copy">
+                AMREEN CONSULTANCY helps infrastructure companies, EPC contractors,
+                and large development projects find skilled and experienced
+                professionals for their workforce needs.
+              </p>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => navigate('contact')}
+              >
                 Request Manpower <ArrowRight />
               </button>
             </div>
+
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div
+                className="construction-hero-placeholder"
+                role="img"
+                aria-label="Infrastructure industry workforce image placeholder"
+              >
                 <div className="construction-placeholder-grid" />
+
                 <HardHat aria-hidden="true" />
-                <span>Construction industry visual</span>
-                <small>Image coming soon</small>
+
+                <span>Infrastructure Industry Workforce</span>
+                <small>Skilled manpower for development projects</small>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -55,26 +100,53 @@ export default function Infrastructure({ navigate }) {
       <section className="section construction-intro">
         <div className="container">
           <div className="row g-5 align-items-center">
+
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img
+                  src={workforceHero}
+                  alt="Infrastructure professional working on a large development project"
+                />
+
+                <div className="construction-image-note">
+                  <Truck aria-hidden="true" /> Infrastructure Workforce Support
+                </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
-              <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+              <p className="construction-eyebrow">
+                Infrastructure Recruitment
               </p>
+
+              <h2>
+                Skilled people for projects that build better infrastructure.
+              </h2>
+
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                AMREEN CONSULTANCY helps infrastructure companies, EPC contractors,
+                and development projects find skilled and experienced professionals
+                for their workforce requirements.
               </p>
+
+              <p>
+                We provide engineers, supervisors, equipment operators, technicians,
+                skilled tradespeople, and project support staff for roads, bridges,
+                buildings, utilities, and other large-scale infrastructure projects
+                in India and overseas.
+              </p>
+
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span>
+                  <UsersRound aria-hidden="true" /> Skilled & screened professionals
+                </span>
+
+                <span>
+                  <MoveUpRight aria-hidden="true" /> Recruitment & deployment support
+                </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>

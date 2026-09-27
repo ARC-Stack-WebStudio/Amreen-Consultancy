@@ -16,38 +16,83 @@ import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  {
+    title: 'Mining Engineers & Site Supervisors',
+    text: 'Professionals who help plan, manage, and supervise daily mining activities at the site.',
+    icon: Ruler,
+  },
+  {
+    title: 'Excavator, Loader & Dump Truck Operators',
+    text: 'Experienced operators who handle heavy equipment used for digging, loading, and material movement.',
+    icon: Truck,
+  },
+  {
+    title: 'Drilling Operators & Blasting Assistants',
+    text: 'Trained workers who support drilling activities and assist with controlled blasting operations.',
+    icon: Hammer,
+  },
+  {
+    title: 'Heavy Equipment Mechanics & Technicians',
+    text: 'Skilled technicians who maintain and repair mining machinery and heavy equipment.',
+    icon: Wrench,
+  },
+  {
+    title: 'Industrial Electricians & Maintenance Personnel',
+    text: 'Technical workers who maintain electrical systems, machinery, and equipment at mining sites.',
+    icon: Cable,
+  },
+  {
+    title: 'Safety Officers, Surveyors & Support Staff',
+    text: 'Professionals who support site safety, surveying, daily operations, and other mining activities.',
+    icon: Settings2,
+  },
 ];
 
-export default function Mining ({ navigate }) {
+export default function Mining({ navigate }) {
   return (
     <div className="construction-page">
       <section className="construction-hero">
         <div className="container">
           <div className="row align-items-center g-5">
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Mining Industry expertise</p>
-              <h1>Construction <em>Workforce</em> Solutions</h1>
-              <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+              <p className="construction-eyebrow">
+                Mining & Resource Industry Recruitment
               </p>
-              <button className="btn btn-primary" onClick={() => navigate('contact')}>
+
+              <h1>
+                Mining <em>Workforce</em> Solutions
+              </h1>
+
+              <p className="construction-hero-copy">
+                AMREEN CONSULTANCY helps mining companies, mineral processing
+                facilities, and resource projects find skilled and experienced
+                workers for their manpower needs.
+              </p>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => navigate('contact')}
+              >
                 Request Manpower <ArrowRight />
               </button>
             </div>
+
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div
+                className="construction-hero-placeholder"
+                role="img"
+                aria-label="Mining and resource industry workforce image placeholder"
+              >
                 <div className="construction-placeholder-grid" />
+
                 <HardHat aria-hidden="true" />
-                <span>Construction industry visual</span>
-                <small>Image coming soon</small>
+
+                <span>Mining Industry Workforce</span>
+                <small>Skilled manpower for mining operations</small>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -55,26 +100,52 @@ export default function Mining ({ navigate }) {
       <section className="section construction-intro">
         <div className="container">
           <div className="row g-5 align-items-center">
+
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img
+                  src={workforceHero}
+                  alt="Mining professional working at an industrial site"
+                />
+
+                <div className="construction-image-note">
+                  <Truck aria-hidden="true" /> Mining Workforce Support
+                </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
-              <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+              <p className="construction-eyebrow">
+                Mining Recruitment
               </p>
+
+              <h2>
+                Skilled workers for demanding mining operations.
+              </h2>
+
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                AMREEN CONSULTANCY helps mining companies, quarry operations, and
+                mineral processing facilities find experienced people for their
+                workforce requirements.
               </p>
+
+              <p>
+                We provide mining engineers, heavy equipment operators, technicians,
+                supervisors, mechanics, electricians, and other skilled workers for
+                mining and resource projects in India and overseas.
+              </p>
+
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span>
+                  <UsersRound aria-hidden="true" /> Skilled & screened workers
+                </span>
+
+                <span>
+                  <MoveUpRight aria-hidden="true" /> Recruitment & deployment support
+                </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>
