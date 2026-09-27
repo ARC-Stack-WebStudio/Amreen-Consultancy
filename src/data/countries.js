@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> d7aef93bd022bd26ed91fda35e6f19f905922fbf
 import omanImage from "../assets/Imgs/Oman Oil&Industry Image.png"
 import SaudiConstruction from "../assets/Imgs/Saudi Arabia Construcion.png"
 import UAEPackageing from "../assets/Imgs/UAE Packageing.png"
@@ -103,13 +99,8 @@ export const COUNTRY_OPTIONS = [
       "Engineering",
       "Facilities Management",
     ],
-<<<<<<< HEAD
-    image: UAEPackageing,
-    imageAlt: 'Dubai skyline representing business opportunities in the United Arab Emirates',
-=======
     image: UAEPackageing ,
     imageAlt: 'Corporate recruitment and workforce planning discussion in a professional environment',
->>>>>>> d7aef93bd022bd26ed91fda35e6f19f905922fbf
   },
   {
     key: "qatar",
@@ -168,12 +159,7 @@ export const COUNTRY_OPTIONS = [
       "Automotive",
       "Warehousing",
     ],
-<<<<<<< HEAD
-    image:PolandTechnicalSpecialist,
-    // imageAlt: 'Doha skyline representing professional workforce opportunities in Qatar',
-=======
     image: PolandTechnicalSpecialist,
->>>>>>> d7aef93bd022bd26ed91fda35e6f19f905922fbf
     imageAlt: 'Warsaw cityscape representing employment opportunities in Poland',
   },
   {
