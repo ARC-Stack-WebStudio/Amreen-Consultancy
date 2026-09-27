@@ -1,3 +1,5 @@
+
+import omanImage from "../assets/Imgs/Oman Oil&Industry Image.png"
 import SaudiConstruction from "../assets/Imgs/Saudi Arabia Construcion.png"
 import UAEPackageing from "../assets/Imgs/UAE Packageing.png"
 import QatarInfrastrctureAndFN from "../assets/Imgs/Qatar Infrastrcture AndFN.png"
@@ -66,8 +68,7 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Hospitality",
     ],
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+    image: SaudiConstruction,
     imageAlt:
       "Corporate recruitment and workforce planning discussion in a professional environment",
   },
@@ -99,8 +100,8 @@ export const COUNTRY_OPTIONS = [
       "Engineering",
       "Facilities Management",
     ],
-    image: SaudiConstruction ,
-    imageAlt: 'Corporate recruitment and workforce planning discussion in a professional environment',
+    image: UAEPackageing,
+    imageAlt: 'Dubai skyline representing business opportunities in the United Arab Emirates',
   },
   {
     key: "qatar",
@@ -159,8 +160,9 @@ export const COUNTRY_OPTIONS = [
       "Automotive",
       "Warehousing",
     ],
-    image: QatarInfrastrctureAndFN,
-    imageAlt: 'Doha skyline representing professional workforce opportunities in Qatar',
+    image:PolandTechnicalSpecialist,
+    // imageAlt: 'Doha skyline representing professional workforce opportunities in Qatar',
+    imageAlt: 'Warsaw cityscape representing employment opportunities in Poland',
   },
   {
     key: "kuwait",
