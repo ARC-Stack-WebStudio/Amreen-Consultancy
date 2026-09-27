@@ -34,7 +34,7 @@ const categories = [
   {
     title: '6G Welders, TIG Welders & Arc Welders',
     text: 'Qualified welders experienced in different welding methods used in oil and gas and industrial projects.',
-    icon: Flame,
+    icon: Cable,
   },
   {
     title: 'Mechanical, Electrical & Instrumentation Technicians',
