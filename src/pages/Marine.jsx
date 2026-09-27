@@ -16,12 +16,36 @@ import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  {
+    title: 'Marine Engineers & Technical Supervisors',
+    text: 'Experienced professionals who support marine projects, technical work, and day-to-day site activities.',
+    icon: Ruler,
+  },
+  {
+    title: 'Shipyard Welders & Fabricators',
+    text: 'Skilled welders and fabricators for shipbuilding, vessel repair, and marine fabrication work.',
+    icon: Hammer,
+  },
+  {
+    title: 'Pipe Fitters, Structural Fitters & Riggers',
+    text: 'Trained workers for pipe fitting, structural work, lifting, and safe material handling.',
+    icon: Cable,
+  },
+  {
+    title: 'Marine Electricians & Instrument Technicians',
+    text: 'Technical professionals who install, maintain, and repair electrical and marine instrumentation systems.',
+    icon: ClipboardCheck,
+  },
+  {
+    title: 'Mechanical Technicians & Maintenance Personnel',
+    text: 'Skilled technicians who maintain marine machinery, equipment, and mechanical systems.',
+    icon: Wrench,
+  },
+  {
+    title: 'Offshore Support Crew & Marine Helpers',
+    text: 'Reliable support workers who assist with daily marine, shipyard, and offshore activities.',
+    icon: UsersRound,
+  },
 ];
 
 export default function Marine({ navigate }) {
@@ -30,24 +54,45 @@ export default function Marine({ navigate }) {
       <section className="construction-hero">
         <div className="container">
           <div className="row align-items-center g-5">
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Marine Industry expertise</p>
-              <h1>Marine <em>Workforce</em> Solutions</h1>
-              <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+              <p className="construction-eyebrow">
+                Marine & Offshore Recruitment
               </p>
-              <button className="btn btn-primary" onClick={() => navigate('contact')}>
+
+              <h1>
+                Marine <em>Workforce</em> Solutions
+              </h1>
+
+              <p className="construction-hero-copy">
+                AMREEN CONSULTANCY helps shipbuilding companies, marine contractors,
+                shipyards, and offshore businesses find skilled and experienced
+                professionals for their workforce needs.
+              </p>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => navigate('contact')}
+              >
                 Request Manpower <ArrowRight />
               </button>
             </div>
+
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div
+                className="construction-hero-placeholder"
+                role="img"
+                aria-label="Marine and offshore workforce image placeholder"
+              >
                 <div className="construction-placeholder-grid" />
+
                 <HardHat aria-hidden="true" />
-                <span>Construction industry visual</span>
-                <small>Image coming soon</small>
+
+                <span>Marine Industry Workforce</span>
+                <small>Skilled manpower for marine & offshore projects</small>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -55,26 +100,53 @@ export default function Marine({ navigate }) {
       <section className="section construction-intro">
         <div className="container">
           <div className="row g-5 align-items-center">
+
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img
+                  src={workforceHero}
+                  alt="Marine professional working at a shipbuilding or offshore project"
+                />
+
+                <div className="construction-image-note">
+                  <Truck aria-hidden="true" /> Marine Workforce Support
+                </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
-              <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+              <p className="construction-eyebrow">
+                Marine Recruitment
               </p>
+
+              <h2>
+                Skilled people for shipbuilding and offshore work.
+              </h2>
+
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                AMREEN CONSULTANCY helps shipyards, shipbuilding companies, marine
+                contractors, and offshore businesses find skilled and experienced
+                professionals for their workforce requirements.
               </p>
+
+              <p>
+                We provide marine engineers, welders, fabricators, pipe fitters,
+                mechanics, electricians, technicians, and other skilled workers
+                for vessel construction, repair, maintenance, and offshore
+                operations in India and overseas.
+              </p>
+
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span>
+                  <UsersRound aria-hidden="true" /> Skilled & screened professionals
+                </span>
+
+                <span>
+                  <MoveUpRight aria-hidden="true" /> Recruitment & deployment support
+                </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>
