@@ -186,7 +186,9 @@ h2 em {
   /* background: rgba(6, 59, 115, 0.92); */
   background: #fff;
   border-bottom: 1px solid var(--color-border-brand);
+  border-bottom: 1px solid var(--color-border-brand);
   backdrop-filter: blur(14px);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.06); */
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.06); */
   transition:
     box-shadow 0.25s,
@@ -1453,7 +1455,7 @@ h2 em {
 }
 
 footer {
-  background: #fff;
+  background:#fff;
   color: #fff;
   padding: 65px 0 24px;
   border-top: 1px solid var(--color-border-brand);
@@ -1491,6 +1493,7 @@ footer button:hover {
 }
 
 .footer-contact {
+  color: var(--color-royal-blue);
   color: var(--color-royal-blue);
   font-weight: 700;
   border-bottom: 1px solid var(--color-royal-blue);
@@ -1804,11 +1807,8 @@ footer button:hover {
 .about-visual-caption b {
   color: var(--color-royal-blue);
 }
-<<<<<<< HEAD
-=======
 
 .about-grid,
->>>>>>> b8daa2919b0719dc8c90545ae1969ad6ba7c4d75
 .map-grid {
   position: absolute;
   inset: 0;
@@ -1818,8 +1818,6 @@ footer button:hover {
   background-size: 35px 35px;
   mask-image: linear-gradient(135deg, transparent 5%, #000 55%, transparent);
 }
-<<<<<<< HEAD
-=======
 
 .about-amreen-visual:after {
   content: "";
@@ -1942,7 +1940,6 @@ footer button:hover {
   color: #fff;
 }
 
->>>>>>> b8daa2919b0719dc8c90545ae1969ad6ba7c4d75
 .about-points {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2004,51 +2001,6 @@ footer button:hover {
   background: var(--color-navy-primary);
   color: var(--color-ice-blue);
 }
-<<<<<<< HEAD
-@media (max-width: 991.98px) {
-  .about-amreen-content > p:not(.section-eyebrow) {
-    max-width: none;
-  }
-
-  .about-amreen-visual {
-    max-width: 620px;
-    margin-left: auto;
-  }
-}
-@media (max-width: 767.98px) {
-  .about-amreen-visual {
-    max-width: 100%;
-    margin-top: 8px;
-  }
-}
-@media (max-width: 575.98px) {
-  .about-points {
-    grid-template-columns: 1fr;
-    gap: 17px;
-  }
-
-  .about-point {
-    display: grid;
-    grid-template-columns: 30px 24px 1fr;
-    column-gap: 10px;
-    padding: 0 0 17px;
-    border-right: 0;
-    border-bottom: 1px solid rgba(6, 59, 115, 0.14);
-  }
-
-  .about-point:last-child {
-    padding-bottom: 0;
-    border-bottom: 0;
-  }
-
-  .about-point > span,
-  .about-point > svg {
-    margin: 2px 0 0;
-  }
-}
-=======
-
->>>>>>> b8daa2919b0719dc8c90545ae1969ad6ba7c4d75
 .global-reach {
   position: relative;
   overflow: hidden;
