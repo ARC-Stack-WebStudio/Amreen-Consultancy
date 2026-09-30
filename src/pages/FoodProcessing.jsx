@@ -15,6 +15,9 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesFoodProcessing from "../assets/Imgs/FOOD Processing hero section.png"
+
+
 const categories = [
   { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
   { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
@@ -42,8 +45,11 @@ export default function FoodProcessing({ navigate }) {
             </div>
             <div className="col-12 col-lg-6">
               <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
-                <div className="construction-placeholder-grid" />
-                <HardHat aria-hidden="true" />
+
+                {/* <div className="construction-placeholder-grid" />
+                <HardHat aria-hidden="true" /> */}
+
+                <img src={IndustriesFoodProcessing} alt="" />
                 <span>Construction industry visual</span>
                 <small>Image coming soon</small>
               </div>

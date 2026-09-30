@@ -15,6 +15,8 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesMarine from "../assets/Imgs/Marine Hero section.png"
+
 const categories = [
   {
     title: 'Marine Engineers & Technical Supervisors',
@@ -84,9 +86,10 @@ export default function Marine({ navigate }) {
                 role="img"
                 aria-label="Marine and offshore workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
+                <img src={IndustriesMarine} alt="" />
+                {/* <div className="construction-placeholder-grid" />
 
-                <HardHat aria-hidden="true" />
+                <HardHat aria-hidden="true" /> */}
 
                 <span>Marine Industry Workforce</span>
                 <small>Skilled manpower for marine & offshore projects</small>

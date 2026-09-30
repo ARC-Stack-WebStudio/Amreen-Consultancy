@@ -15,6 +15,8 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesOilandGas from "../assets/Imgs/Oil & Gas Hero section.png"
+
 const categories = [
   {
     title: 'Petroleum Engineers & Project Engineers',
@@ -84,9 +86,10 @@ export default function OilGas({ navigate }) {
                 role="img"
                 aria-label="Oil and gas industry workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
+                {/* <div className="construction-placeholder-grid" />
 
-                <HardHat aria-hidden="true" />
+                <HardHat aria-hidden="true" /> */}
+                <img src={IndustriesOilandGas} alt="" />
 
                 <span>Oil & Gas Industry Workforce</span>
                 <small>Skilled manpower for energy projects</small>

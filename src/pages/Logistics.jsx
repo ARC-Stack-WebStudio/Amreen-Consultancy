@@ -15,6 +15,8 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesLogistic from "../assets/Imgs/Logistics Hero section.png"
+
 const categories = [
   {
     title: 'Logistics Supervisors & Operations Managers',
@@ -84,9 +86,11 @@ export default function Logistics({ navigate }) {
                 role="img"
                 aria-label="Logistics and supply chain workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
+                <img src={IndustriesLogistic} alt="" />
+                
+                {/* <div className="construction-placeholder-grid" />
 
-                <HardHat aria-hidden="true" />
+                <HardHat aria-hidden="true" /> */}
 
                 <span>Logistics Industry Workforce</span>
                 <small>Skilled manpower for supply chain operations</small>

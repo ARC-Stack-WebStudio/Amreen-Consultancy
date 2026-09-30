@@ -15,6 +15,9 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesPetrochemical from "../assets/Imgs/Petrochemical Hero section.png"
+
+
 const categories = [
   {
     title: 'Process Engineers & Chemical Engineers',
@@ -84,9 +87,10 @@ export default function Petrochemicals({ navigate }) {
                 role="img"
                 aria-label="Petrochemical and industrial workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
+                  <img src={IndustriesPetrochemical} alt="" />
+                {/* <div className="construction-placeholder-grid" />
 
-                <HardHat aria-hidden="true" />
+                <HardHat aria-hidden="true" /> */}
 
                 <span>Petrochemical Industry Workforce</span>
                 <small>Skilled manpower for industrial operations</small>

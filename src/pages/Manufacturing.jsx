@@ -15,6 +15,8 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesManufacturing from "../assets/Imgs/Manufacturing Hero Section.png"
+
 
 const categories = [
   {
@@ -85,8 +87,9 @@ export default function ManufacturingIndustry({ navigate }) {
                 role="img"
                 aria-label="Manufacturing and industrial workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
-                <HardHat aria-hidden="true" />
+                <img src={IndustriesManufacturing} alt="" />
+                {/* <div className="construction-placeholder-grid" />
+                <HardHat aria-hidden="true" /> */}
 
                 <span>Manufacturing & Industrial Workforce</span>
                 <small>Professional recruitment solutions</small>

@@ -15,6 +15,9 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesInfrastruture from "../assets/Imgs/Infrastructure Hero section.png"
+
+
 const categories = [
   {
     title: 'Civil Engineers & Site Engineers',
@@ -84,9 +87,10 @@ export default function Infrastructure({ navigate }) {
                 role="img"
                 aria-label="Infrastructure industry workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
+                <img src={IndustriesInfrastruture} alt="" />
+                {/* <div className="construction-placeholder-grid" />
 
-                <HardHat aria-hidden="true" />
+                <HardHat aria-hidden="true" /> */}
 
                 <span>Infrastructure Industry Workforce</span>
                 <small>Skilled manpower for development projects</small>
