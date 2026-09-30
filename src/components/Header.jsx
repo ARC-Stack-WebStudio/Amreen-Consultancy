@@ -42,7 +42,8 @@ export default function Header({ page, navigate }) {
 	};
 
 	return (
-		<header className={`site-header ${scrolled ? 'is-scrolled' : ''}`}>
+		// <header className={`site-header ${scrolled ? 'is-scrolled' : ''}`}>
+		<header className={`site-header ${scrolled }`}>
 			<div className="container">
 				<div className="header-inner">
 					<button className="brand-button" onClick={() => go('home')}>

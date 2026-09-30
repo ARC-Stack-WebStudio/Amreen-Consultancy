@@ -21,7 +21,7 @@
 
 
 
-import headerLogo from '../assets/Logo/AMREEN Logo.png';
+import headerLogo from '../assets/Logo/New Pro Logo.png';
 import headerLogoWhite from '../assets/Logo/AMREEN Logo White.png';
 
 import headerIcon from '../assets/Logo/Amreen Icon.png';
@@ -30,13 +30,9 @@ import headerIconWhite from '../assets/Logo/Amreen Icon White.png';
 export default function Brand({ light = false }) {
   return (
     <div className={`brand ${light ? 'brand-light' : ''}`}>
-      <img
-        src={light ? headerIconWhite : headerIcon}
-        alt="AMREEN CONSULTANCY - Overseas Recruitment Icon"
-      />
 
       <img
-        src={light ? headerLogoWhite : headerLogo}
+        src={ headerLogo}
         alt="AMREEN CONSULTANCY - Overseas Recruitment Logo"
       />
     </div>
