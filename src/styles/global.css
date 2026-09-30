@@ -157,8 +157,9 @@ h2 em {
   z-index: 20;
   /* background: rgba(6, 59, 115, 0.92); */
   background: #fff;
+  border-bottom: 1px solid var(--color-border-brand);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.06); */
   transition:
     box-shadow 0.25s,
     background 0.25s;
@@ -1322,7 +1323,7 @@ h2 em {
   width: 20px;
 }
 footer {
-  background: var(--color-navy-black);
+  background:#fff;
   color: #fff;
   padding: 65px 0 24px;
   border-top: 1px solid var(--color-border-brand);
@@ -1339,7 +1340,7 @@ footer h3 {
   color: var(--color-royal-blue);
 }
 footer button:not(.footer-contact) {
-  color: var(--color-silver);
+  color: var(--color-sky-blue);
   display: block;
   font-size: 0.86rem;
   padding: 5px 0;
@@ -1348,13 +1349,13 @@ footer button:hover {
   color: var(--color-sky-blue);
 }
 .footer-intro {
-  color: var(--color-silver);
+  color: var(--color-royal-blue);
   font-size: 0.88rem;
   margin-top: 21px;
   max-width: 330px;
 }
 .footer-contact {
-  color: var(--color-ice-blue);
+  color: var(--color-royal-blue);
   font-weight: 700;
   border-bottom: 1px solid var(--color-royal-blue);
   padding: 0 0 7px;

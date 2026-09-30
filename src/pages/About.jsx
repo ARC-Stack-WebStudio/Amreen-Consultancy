@@ -23,7 +23,7 @@ export default function About({ navigate }) {
             </article>)}
           </div>
           <div className="about-page-actions">
-            <button className="btn btn-primary" onClick={() => navigate('contact')}><Send /> Discover AMREEN <ArrowRight /></button>
+            <button className="btn btn-primary" onClick={() => navigate('contact')}><Send /> Discover AMREEN Cousultancy<ArrowRight /></button>
             <button className="btn about-page-secondary" onClick={() => navigate('jobs')}><UsersRound /> Explore Opportunities</button>
           </div>
           <p className="about-page-tagline">PEOPLE <span>|</span> OPPORTUNITIES <span>|</span> A BRIGHTER TOMORROW</p>

@@ -1,4 +1,4 @@
-import omanHeroImage from '../assets/Imgs/Omanhero.png';
+import omanHeroImage from '../assets/Imgs/Oman-Hero.png';
 import saudiHeroImage from '../assets/Imgs/Saudi Arabia Hero.png';
 import uaeHeroImage from '../assets/Imgs/UAE Hero.png';
 import qatarHeroImage from '../assets/Imgs/Qatar Hero.png';
