@@ -1455,7 +1455,7 @@ h2 em {
 }
 
 footer {
-  background:#fff;
+  background: #fff;
   color: #fff;
   padding: 65px 0 24px;
   border-top: 1px solid var(--color-border-brand);
@@ -1759,7 +1759,6 @@ footer button:hover {
   bottom: -270px;
 }
 
-
 .about-amreen-content>p:not(.section-eyebrow) {
   max-width: 625px;
   font-size: 0.96rem;
@@ -1774,38 +1773,6 @@ footer button:hover {
   border-radius: var(--radius-xl);
   background: #dff1ff;
   box-shadow: 0 20px 45px rgba(1, 51, 138, 0.14);
-}
-.about-amreen-visual::before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  pointer-events: none;
-  border: 1px solid rgba(255, 255, 255, 0.36);
-  border-radius: inherit;
-}
-.about-amreen-visual img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.about-visual-caption {
-  position: absolute;
-  z-index: 2;
-  top: 20px;
-  left: 20px;
-  margin: 0;
-  padding: 8px 11px;
-  border: 1px solid rgba(1, 51, 138, 0.16);
-  border-radius: 7px;
-  background: rgba(255, 255, 255, 0.8);
-  color: var(--color-navy-primary);
-  font-family: "DM Mono", monospace;
-  font-size: 0.61rem;
-  letter-spacing: 0.12em;
-}
-.about-visual-caption b {
-  color: var(--color-royal-blue);
 }
 
 .about-grid,
@@ -2001,6 +1968,7 @@ footer button:hover {
   background: var(--color-navy-primary);
   color: var(--color-ice-blue);
 }
+
 .global-reach {
   position: relative;
   overflow: hidden;
