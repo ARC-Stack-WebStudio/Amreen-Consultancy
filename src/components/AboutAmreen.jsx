@@ -1,4 +1,5 @@
 import { ArrowRight, BriefcaseBusiness, Globe2, UsersRound } from 'lucide-react';
+import aboutGlobalImage from '../assets/Imgs/About Global Image.png';
 
 const points = [
   ['01', 'Global Perspective', 'Connecting professionals with international opportunities.', Globe2],
@@ -10,18 +11,13 @@ export default function AboutAmreen({ navigate }) {
   return <section className="section about-amreen" id="about-amreen" aria-labelledby="about-amreen-heading">
     <div className="container">
       <div className="row align-items-center g-4 g-lg-5">
-        <div className="col-12 col-lg-6 order-lg-2">
+        <div className="col-12 col-lg-6 order-2 order-lg-2">
           <div className="about-amreen-visual" aria-hidden="true">
-            <div className="about-grid" />
-            <div className="about-orbit orbit-one" /><div className="about-orbit orbit-two" />
-            <span className="connection-point point-one" /><span className="connection-point point-two" /><span className="connection-point point-three" />
-            <Globe2 className="about-globe" />
-            <div className="about-person"><UsersRound /><span>GLOBAL<br />TALENT</span></div>
-            <div className="about-growth"><BriefcaseBusiness /><span>CAREER<br />PATHWAYS</span></div>
+            <img src={aboutGlobalImage} alt="" />
             <p className="about-visual-caption">AMREEN <b>CONSULTANCY</b></p>
           </div>
         </div>
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6 order-1 order-lg-1">
           <div className="about-amreen-content">
             <p className="section-eyebrow">About AMREEN</p>
             <span className="brand-divider" aria-hidden="true" />

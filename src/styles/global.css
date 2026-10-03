@@ -222,7 +222,7 @@ h2 em {
 .brand img {
   display: block;
   /* width: 100%; */
-  height: 100%;
+  height: 75px;
   object-fit: contain;
   object-position: left center;
   border-radius: 20px;
@@ -1740,7 +1740,7 @@ footer button:hover {
 }
 
 .about-amreen {
-  background: var(--color-off-white);
+  background: linear-gradient(135deg, #fff 0%, var(--color-off-white) 72%, #f3f9ff 100%);
   position: relative;
   overflow: hidden;
 }
@@ -1755,25 +1755,53 @@ footer button:hover {
   left: -300px;
   bottom: -270px;
 }
-
-.about-amreen-content>p:not(.section-eyebrow) {
-  max-width: 625px;
+.about-amreen-content > p:not(.section-eyebrow) {
+  max-width: 590px;
   font-size: 0.96rem;
   margin-bottom: 15px;
 }
 
 .about-amreen-visual {
-  min-height: 470px;
-  height: 100%;
+  min-height: 0;
   position: relative;
   overflow: hidden;
+  border: 1px solid rgba(1, 75, 185, 0.2);
   border-radius: var(--radius-xl);
-  background: var(--gradient-navy);
-  border: 1px solid var(--color-border-brand);
-  box-shadow: var(--shadow-lg);
+  background: #dff1ff;
+  box-shadow: 0 20px 45px rgba(1, 51, 138, 0.14);
 }
-
-.about-grid,
+.about-amreen-visual::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: inherit;
+}
+.about-amreen-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.about-visual-caption {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  padding: 8px 11px;
+  border: 1px solid rgba(1, 51, 138, 0.16);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-navy-primary);
+  font-family: "DM Mono", monospace;
+  font-size: 0.61rem;
+  letter-spacing: 0.12em;
+}
+.about-visual-caption b {
+  color: var(--color-royal-blue);
+}
 .map-grid {
   position: absolute;
   inset: 0;
@@ -1783,133 +1811,11 @@ footer button:hover {
   background-size: 35px 35px;
   mask-image: linear-gradient(135deg, transparent 5%, #000 55%, transparent);
 }
-
-.about-amreen-visual:after {
-  content: "";
-  position: absolute;
-  width: 390px;
-  height: 390px;
-  border-radius: 50%;
-  right: -115px;
-  top: -105px;
-  background: radial-gradient(circle,
-      rgba(21, 159, 224, 0.16),
-      transparent 64%);
-}
-
-.about-orbit {
-  position: absolute;
-  left: 50%;
-  top: 48%;
-  border: 1px solid rgba(21, 159, 224, 0.42);
-  border-radius: 50%;
-  transform: translate(-50%, -50%) rotate(-23deg);
-}
-
-.orbit-one {
-  width: 68%;
-  height: 29%;
-}
-
-.orbit-two {
-  width: 31%;
-  height: 68%;
-  transform: translate(-50%, -50%) rotate(33deg);
-}
-
-.about-globe {
-  position: absolute;
-  left: 50%;
-  top: 48%;
-  width: 48%;
-  height: 48%;
-  transform: translate(-50%, -50%);
-  stroke: var(--color-sky-blue);
-  stroke-width: 0.85;
-  filter: drop-shadow(0 0 18px rgba(21, 159, 224, 0.26));
-}
-
-.connection-point {
-  position: absolute;
-  z-index: 1;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--color-ice-blue);
-  box-shadow: 0 0 15px var(--color-sky-blue);
-}
-
-.point-one {
-  top: 22%;
-  left: 26%;
-}
-
-.point-two {
-  top: 38%;
-  right: 18%;
-}
-
-.point-three {
-  bottom: 27%;
-  left: 38%;
-}
-
-.about-person,
-.about-growth {
-  position: absolute;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  padding: 10px 12px;
-  border: 1px solid rgba(21, 159, 224, 0.38);
-  border-radius: 10px;
-  background: rgba(6, 59, 115, 0.8);
-  box-shadow: 0 10px 25px rgba(6, 59, 115, 0.24);
-  font-family: "DM Mono", monospace;
-  font-size: 0.56rem;
-  line-height: 1.45;
-  letter-spacing: 0.1em;
-  color: var(--color-ice-blue);
-}
-
-.about-person {
-  right: 25px;
-  bottom: 82px;
-}
-
-.about-growth {
-  left: 24px;
-  bottom: 44px;
-}
-
-.about-person svg,
-.about-growth svg {
-  width: 20px;
-  color: var(--color-sky-blue);
-}
-
-.about-visual-caption {
-  position: absolute;
-  z-index: 1;
-  top: 29px;
-  left: 29px;
-  margin: 0;
-  color: var(--color-ice-blue);
-  font-family: "DM Mono", monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
-}
-
-.about-visual-caption b {
-  color: #fff;
-}
-
 .about-points {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
-  margin: 30px 0;
+  margin: 27px 0;
 }
 
 .about-point {
@@ -1966,7 +1872,47 @@ footer button:hover {
   background: var(--color-navy-primary);
   color: var(--color-ice-blue);
 }
+@media (max-width: 991.98px) {
+  .about-amreen-content > p:not(.section-eyebrow) {
+    max-width: none;
+  }
 
+  .about-amreen-visual {
+    max-width: 620px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 767.98px) {
+  .about-amreen-visual {
+    max-width: 100%;
+    margin-top: 8px;
+  }
+}
+@media (max-width: 575.98px) {
+  .about-points {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+
+  .about-point {
+    display: grid;
+    grid-template-columns: 30px 24px 1fr;
+    column-gap: 10px;
+    padding: 0 0 17px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(6, 59, 115, 0.14);
+  }
+
+  .about-point:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .about-point > span,
+  .about-point > svg {
+    margin: 2px 0 0;
+  }
+}
 .global-reach {
   position: relative;
   overflow: hidden;
@@ -2357,7 +2303,7 @@ footer button:hover {
 
 .country-visual img {
   display: block;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   object-fit: cover;
 }
