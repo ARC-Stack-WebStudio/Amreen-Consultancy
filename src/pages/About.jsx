@@ -145,11 +145,6 @@ export default function About({ navigate }) {
               Discover our approach <ArrowRight aria-hidden="true" />
             </a>
           </div>
-<<<<<<< HEAD
-          <div className="about-page-actions">
-            <button className="btn btn-primary" onClick={() => navigate('contact')}><Send /> Discover AMREEN Cousultancy<ArrowRight /></button>
-            <button className="btn about-page-secondary" onClick={() => navigate('jobs')}><UsersRound /> Explore Opportunities</button>
-=======
 
           <div
             className="about-hero__art"
@@ -183,7 +178,6 @@ export default function About({ navigate }) {
               <span>PEOPLE · PURPOSE · PROGRESS</span>
               <span>ACROSS BORDERS</span>
             </div>
->>>>>>> f6f81a7519e548ba3236ea52cdcc8a6bbe218433
           </div>
         </div>
       </section>
