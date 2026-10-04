@@ -30,7 +30,7 @@ export default function AboutAmreen({ navigate }) {
               </article>)}
             </div>
             <div className="about-actions">
-              <button className="btn btn-primary" onClick={() => navigate('about')}>Discover AMREEN <ArrowRight /></button>
+              <button className="btn btn-primary" onClick={() => navigate('about')}>Discover AMREEN Cousultancy<ArrowRight /></button>
               <button className="btn about-secondary" onClick={() => navigate('jobs')}>Explore Opportunities</button>
             </div>
           </div>

@@ -15,6 +15,9 @@ import {
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
 
+import IndustriesMining from "../assets/Imgs/Mining Hero section.png"
+
+
 const categories = [
   {
     title: 'Mining Engineers & Site Supervisors',
@@ -84,9 +87,10 @@ export default function Mining({ navigate }) {
                 role="img"
                 aria-label="Mining and resource industry workforce image placeholder"
               >
-                <div className="construction-placeholder-grid" />
+                <img src={IndustriesMining} alt="" />
+                {/* <div className="construction-placeholder-grid" />
 
-                <HardHat aria-hidden="true" />
+                <HardHat aria-hidden="true" /> */}
 
                 <span>Mining Industry Workforce</span>
                 <small>Skilled manpower for mining operations</small>

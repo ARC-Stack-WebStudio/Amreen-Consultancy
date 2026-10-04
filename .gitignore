@@ -1,3 +1,7 @@
 node_modules/
 build/
 dist/
+debug.log
+
+src/assets/Logo/AMREEN Logo.png
+src/assets/Logo/AMREEN Logo 1.png
