@@ -14,7 +14,6 @@ import {
 } from 'lucide-react';
 import workforceHero from '../assets/workforce/workforce-hero.png';
 import SectionTitle from '../components/SectionTitle';
-
 import IndustriesCounstruction from "../assets/Imgs/Construction Hero section.png"
 
 const categories = [
