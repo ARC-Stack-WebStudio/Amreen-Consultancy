@@ -17,7 +17,6 @@ import SectionTitle from '../components/SectionTitle';
 
 import IndustriesCounstruction from "../assets/Imgs/Construction Hero section.png"
 
-
 const categories = [
   { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
   { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
