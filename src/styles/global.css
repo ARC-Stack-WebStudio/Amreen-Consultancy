@@ -3412,7 +3412,7 @@ footer button:hover {
 
 .workforce-category-grid {
   display: grid;
-  grid-template-columns: repeat(11, minmax(100px, 1fr));
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
   gap: 8px;
   overflow-x: auto;
   padding-bottom: 4px;

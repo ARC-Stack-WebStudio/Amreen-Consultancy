@@ -45,7 +45,7 @@ export default function CountryPage({ page, navigate }) {
               </ul>
 
               <button type="button" className="btn btn-primary" onClick={() => navigate('contact')}>
-                Speak with AMREEN <ArrowRight />
+                Speak with AMREEN Consultancy<ArrowRight />
               </button>
             </div>
           </div>
