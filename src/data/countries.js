@@ -13,13 +13,13 @@ export const COUNTRY_OPTIONS = [
     label: "United Arab Emirates",
     pageId: "country-united-arab-emirates",
     heroEyebrow: "UNITED ARAB EMIRATES",
-    heading: "Trusted Manpower Solutions for UAE Employers",
+    heading: "Recruitment and Workforce Solutions for UAE Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps businesses across the United Arab Emirates access dependable international talent for fast-moving projects and long-term workforce needs.",
+      "AMREEN CONSULTANCY helps employers across the United Arab Emirates source international candidates for project-based and ongoing workforce requirements.",
     contentHeading:
-      "Recruitment support for the UAE’s evolving business landscape",
+      "Recruitment support for UAE employers",
     summary:
-      "We help UAE employers source screened international candidates, coordinate workforce readiness and support efficient mobilisation for teams that keep operations moving.",
+      "We help UAE employers source screened international candidates and coordinate workforce preparation and mobilisation for projects and ongoing operations.",
     bullets: [
       "International workforce recruitment",
       "Construction and logistics staffing",
@@ -44,12 +44,12 @@ export const COUNTRY_OPTIONS = [
     label: "Qatar",
     pageId: "country-qatar",
     heroEyebrow: "QATAR",
-    heading: "Trusted Manpower Solutions for Qatar Employers",
+    heading: "Recruitment and Workforce Solutions for Qatar Employers",
     heroIntro:
-      "AMREEN CONSULTANCY supports Qatar employers with international recruitment solutions aligned with infrastructure, service and industrial workforce requirements.",
-    contentHeading: "Reliable workforce support for Qatar-based organisations",
+      "AMREEN CONSULTANCY supports Qatar employers with international recruitment aligned with infrastructure, service and industrial workforce needs.",
+    contentHeading: "Recruitment support for Qatar-based organisations",
     summary:
-      "From candidate selection to deployment preparation, we help employers build capable teams with practical support for timely and dependable workforce mobilisation.",
+      "From candidate selection through deployment preparation, we coordinate recruitment support around employer requirements and workforce schedules.",
     bullets: [
       "International recruitment",
       "Infrastructure workforce staffing",
@@ -74,13 +74,13 @@ export const COUNTRY_OPTIONS = [
     label: "Oman",
     pageId: "country-oman",
     heroEyebrow: "Oman",
-    heading: "Trusted Manpower Solutions for Oman Employers",
+    heading: "Recruitment and Workforce Solutions for Oman Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps employers in Oman access dependable international talent and workforce support built for long-term operational performance.",
+      "AMREEN CONSULTANCY helps employers in Oman source international candidates for operational and project workforce needs.",
     contentHeading:
-      "Professional recruitment support for Oman-based businesses",
+      "Recruitment support for Oman-based businesses",
     summary:
-      "We support employers with access to capable international workforce solutions, carefully screened candidates and efficient mobilisation strategies designed around your project and staffing needs.",
+      "We help employers source screened international candidates and coordinate mobilisation according to project schedules and staffing requirements.",
     bullets: [
       "International workforce recruitment",
       "Skilled and semi-skilled manpower",
@@ -105,13 +105,13 @@ export const COUNTRY_OPTIONS = [
     label: "Saudi Arabia",
     pageId: "country-saudi-arabia",
     heroEyebrow: "SAUDI ARABIA",
-    heading: "Trusted Manpower Solutions for Saudi Employers",
+    heading: "Recruitment and Workforce Solutions for Saudi Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps organisations in Saudi Arabia connect with reliable workforce solutions that match project requirements, quality standards and mobilisation timelines.",
+      "AMREEN CONSULTANCY helps Saudi employers source personnel aligned with project roles, workforce standards and mobilisation schedules.",
     contentHeading:
-      "Workforce solutions built around Saudi business priorities",
+      "Recruitment aligned with Saudi employer requirements",
     summary:
-      "Amreen Consultancy helps companies across different countries find the right skilled, semi-skilled, and professional workers for their business needs. We provide manpower for industries including construction, manufacturing, oil & gas, logistics, hospitality, infrastructure, and more. <br>From finding and screening candidates to documentation, medical checks, visa assistance, and deployment, we manage the complete recruitment process.</br>With a strong candidate network across India, we focus on providing reliable manpower and making the recruitment process simple, smooth, and professional..",
+      "AMREEN CONSULTANCY helps employers source skilled, semi-skilled and professional personnel for sectors including construction, manufacturing, oil and gas, logistics, hospitality and infrastructure. Our recruitment support covers candidate sourcing and screening, documentation, medical checks, visa coordination and deployment. We draw on a candidate network across India and aim to make recruitment clear and professionally coordinated.",
     bullets: [
       "International recruitment",
       "Skilled workforce",
@@ -137,12 +137,12 @@ export const COUNTRY_OPTIONS = [
     label: "Kuwait",
     pageId: "country-kuwait",
     heroEyebrow: "KUWAIT",
-    heading: "Trusted Manpower Solutions for Kuwait Employers",
+    heading: "Recruitment and Workforce Solutions for Kuwait Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps Kuwait employers build reliable international teams for construction, industrial and service-sector workforce needs.",
-    contentHeading: "Workforce solutions shaped for Kuwait business needs",
+      "AMREEN CONSULTANCY supports Kuwait employers sourcing international personnel for construction, industrial and service-sector roles.",
+    contentHeading: "Recruitment support for Kuwait employers",
     summary:
-      "We support employers with carefully screened candidates, clear recruitment coordination and mobilisation assistance designed to help projects and operations stay on track.",
+      "We provide candidate screening, recruitment coordination and mobilisation support aligned with employer schedules and operational needs.",
     bullets: [
       "International recruitment",
       "Skilled and semi-skilled manpower",
@@ -167,12 +167,12 @@ export const COUNTRY_OPTIONS = [
     label: "Poland",
     pageId: "country-poland",
     heroEyebrow: "POLAND",
-    heading: "Trusted Manpower Solutions for Poland Employers",
+    heading: "Recruitment and Workforce Solutions for Employers in Poland",
     heroIntro:
-      "AMREEN CONSULTANCY connects employers in Poland with qualified international talent for technical, industrial and operational workforce requirements.",
-    contentHeading: "International recruitment for Poland’s growing industries",
+      "AMREEN CONSULTANCY connects employers in Poland with international candidates for technical, industrial and operational roles.",
+    contentHeading: "International recruitment for Polish employers",
     summary:
-      "We provide a structured approach to sourcing, screening and preparing international candidates so employers can meet production, logistics and project demands with confidence.",
+      "Our recruitment process supports candidate sourcing, screening and preparation to help employers address production, logistics and project staffing needs.",
     bullets: [
       "International workforce recruitment",
       "Technical and industrial staffing",
@@ -197,12 +197,12 @@ export const COUNTRY_OPTIONS = [
     label: "Mauritius",
     pageId: "country-mauritius",
     heroEyebrow: "MAURITIUS",
-    heading: "Trusted Manpower Solutions for Mauritius Employers",
+    heading: "Recruitment and Workforce Solutions for Mauritius Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps employers in Mauritius access international workforce solutions for service, hospitality and business operations.",
+      "AMREEN CONSULTANCY helps employers in Mauritius source international candidates for hospitality, service and business operations.",
     contentHeading: "Recruitment support for Mauritius employers",
     summary:
-      "We connect employers with screened candidates and provide practical support through recruitment, documentation and mobilisation for dependable workforce continuity.",
+      "We connect employers with screened candidates and coordinate recruitment documentation and mobilisation to support workforce continuity.",
     bullets: [
       "International workforce recruitment",
       "Hospitality and service staffing",
@@ -227,12 +227,12 @@ export const COUNTRY_OPTIONS = [
     label: "Russia",
     pageId: "country-russia",
     heroEyebrow: "RUSSIA",
-    heading: "Trusted Manpower Solutions for Russia Employers",
+    heading: "Recruitment and Workforce Solutions for Employers in Russia",
     heroIntro:
-      "AMREEN CONSULTANCY supports employers in Russia with international recruitment solutions for industrial, construction and technical workforce requirements.",
-    contentHeading: "International workforce support for Russia-based projects",
+      "AMREEN CONSULTANCY supports employers in Russia with international recruitment for industrial, construction and technical roles.",
+    contentHeading: "Recruitment support for projects in Russia",
     summary:
-      "We help employers access capable candidates through a coordinated recruitment process that supports screening, documentation and workforce mobilisation needs.",
+      "We help employers source suitable candidates and coordinate screening, documentation and workforce mobilisation according to project needs.",
     bullets: [
       "International recruitment",
       "Technical and skilled workforce",

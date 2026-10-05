@@ -10,8 +10,8 @@ export default function CountryPage({ page, navigate }) {
     return (
       <section className="section">
         <div className="container">
-          <h2>Country not available</h2>
-          <p>This market is currently being prepared.</p>
+          <h2>Country information unavailable</h2>
+          <p>Details for this market are not currently available.</p>
         </div>
       </section>
     );
@@ -31,7 +31,7 @@ export default function CountryPage({ page, navigate }) {
             </div>
 
             <div className="col-12 col-lg-6">
-              <p className="eyebrow">Recruitment & manpower support</p>
+              <p className="eyebrow">Recruitment and workforce support</p>
               <h2>{country.contentHeading}</h2>
               <p>{country.summary}</p>
 
@@ -45,7 +45,7 @@ export default function CountryPage({ page, navigate }) {
               </ul>
 
               <button type="button" className="btn btn-primary" onClick={() => navigate('contact')}>
-                Speak with AMREEN Consultancy<ArrowRight />
+                Discuss your workforce requirements<ArrowRight />
               </button>
             </div>
           </div>

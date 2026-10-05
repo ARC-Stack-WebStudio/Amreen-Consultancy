@@ -32,21 +32,21 @@ export default function ConstructionIndustry({ navigate }) {
         <div className="container">
           <div className="row align-items-center g-5">
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Industry expertise</p>
+              <p className="construction-eyebrow">construction workforce recruitment</p>
               <h1>Construction <em>Workforce</em> Solutions</h1>
               <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+                Construction professionals and skilled trades sourced for project roles and overseas deployment.
               </p>
               <button className="btn btn-primary" onClick={() => navigate('contact')}>
                 Request Manpower <ArrowRight />
               </button>
             </div>
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div className="construction-hero-placeholder" role="img" aria-label="Construction workforce image">
                 <img src={IndustriesCounstruction} alt="" />
                 {/* <div className="construction-placeholder-grid" /> */}
                 {/* <HardHat aria-hidden="true" /> */}
-                <span>Construction industry visual</span>
+                <span>construction workforce</span>
                 <small>Image coming soon</small>
               </div>
             </div>
@@ -60,14 +60,14 @@ export default function ConstructionIndustry({ navigate }) {
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
                 <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <div className="construction-image-note"><Truck aria-hidden="true" /> Workforce mobilisation support</div>
               </div>
             </div>
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
+              <p className="construction-eyebrow">construction recruitment</p>
+              <h2>Construction manpower for safe, well-coordinated project delivery.</h2>
               <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+                We source construction engineers, site supervisors, skilled trades and support staff against technical role requirements and deployment schedules.
               </p>
               <p>
                 From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
@@ -85,8 +85,8 @@ export default function ConstructionIndustry({ navigate }) {
         <div className="container">
           <SectionTitle
             eyebrow="Workforce categories"
-            title="Construction talent, matched to your site needs."
-            text="A focused workforce mix for employers seeking reliable technical, trade and on-site support."
+            title="Construction personnel matched to site requirements."
+            text="Technical, trade and site support roles across construction projects."
           />
           <div className="row g-3">
             {categories.map(({ title, text, icon: Icon }) => (
@@ -106,9 +106,9 @@ export default function ConstructionIndustry({ navigate }) {
       <section className="construction-cta">
         <div className="container">
           <div>
-            <p className="construction-eyebrow">Build your team</p>
-            <h2>Looking for the right construction workforce?</h2>
-            <p>Tell us what your project needs. We will help you source a dependable workforce ready for overseas deployment.</p>
+            <p className="construction-eyebrow">Build your workforce</p>
+            <h2>Need construction manpower for your project?</h2>
+            <p>Share your roles and timelines with us. We can support candidate sourcing and deployment coordination.</p>
           </div>
           <button className="btn btn-primary" onClick={() => navigate('contact')}>
             Request Manpower <ArrowRight />
