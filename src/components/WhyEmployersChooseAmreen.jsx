@@ -2,14 +2,14 @@ import { BadgeCheck, Clock3, FileText, HeartHandshake, MonitorCheck, ShieldCheck
 import EmployerCapabilityCard from './EmployerCapabilityCard';
 
 const employerCapabilities = [
-  { title: 'Large Workforce Database', description: 'Access to 100,000+ pre-screened candidates across all major industrial trades and skill levels.', icon: UsersRound, featured: true },
-  { title: 'Rigorous Screening', description: 'Multi-stage verification including comprehensive background checks, skill validation, and thorough reference verification.', icon: BadgeCheck },
-  { title: 'Trade Testing Facilities', description: 'Multiple dedicated facilities for hands-on assessment of welding, fitting, electrical and mechanical skills.', icon: Wrench },
-  { title: 'Fast Mobilisation', description: 'From requirement to deployment in weeks, not months. Scalable from 50 to 5,000 workers.', icon: Clock3 },
-  { title: 'Documentation Support', description: 'Complete visa, work permit, attestation and compliance documentation handled end-to-end.', icon: FileText },
-  { title: 'Compliance Experience', description: 'Deep knowledge of international labour laws, migration rules and industry-specific regulations.', icon: ShieldCheck },
-  { title: 'Retention Focus', description: 'Post-deployment support and worker welfare programs that drive long-term workforce stability.', icon: HeartHandshake },
-  { title: 'End-to-End Management', description: 'Single point of accountability from sourcing through deployment and beyond.', icon: MonitorCheck },
+  { title: 'Large Workforce Database', description: 'Connect with a wide pool of pre-screened candidates across diverse industries, trades, and skill levels.', icon: UsersRound, featured: true },
+  { title: 'Thorough Candidate Checks', description: 'Candidates go through detailed verification, skill assessment, background checks, and reference screening.', icon: BadgeCheck },
+  { title: 'Practical Skill Assessment', description: 'Hands-on testing helps evaluate technical abilities in welding, electrical, mechanical, fitting, and other trades.', icon: Wrench },
+  { title: 'Fast Mobilisation', description: 'Efficient recruitment and processing help businesses mobilise the required workforce within a shorter timeframe.', icon: Clock3 },
+  { title: 'Documentation Help', description: 'We assist with visas, work permits, attestations, and other essential employment documentation.', icon: FileText },
+  { title: 'International Compliance', description: 'Our process follows relevant labour regulations, migration requirements, and industry standards across different markets.', icon: ShieldCheck },
+  { title: 'Workforce Continuity', description: 'Ongoing support and worker care help employers maintain a stable and dependable workforce.', icon: HeartHandshake },
+  { title: 'End-to-End Management', description: 'From finding suitable candidates to deployment and post-placement assistance, we manage the complete recruitment journey.', icon: MonitorCheck },
 ];
 
 export default function WhyEmployersChooseAmreen() {
@@ -19,8 +19,8 @@ export default function WhyEmployersChooseAmreen() {
         <header className="employer-capabilities-heading text-center mx-auto">
           <p className="section-eyebrow">Why Employers Choose AMREEN</p>
           <span className="brand-divider mx-auto" aria-hidden="true" />
-          <h2 id="why-amreen-heading">Trusted by <span className="brand-text">Industrial Employers Worldwide</span></h2>
-          <p>We do not just recruit — we mobilise workforce at scale with rigorous standards and end-to-end management.</p>
+          <h2 id="why-amreen-heading">Building Workforce Connections Worldwide</h2>
+          <p>We connect businesses with the right workforce and provide end-to-end management to support a smooth and reliable recruitment process.</p>
         </header>
         <div className="row g-4">
           {employerCapabilities.map(({ icon: Icon, ...capability }) => (

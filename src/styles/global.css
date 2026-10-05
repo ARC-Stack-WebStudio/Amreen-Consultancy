@@ -800,7 +800,7 @@ h2 em {
 }
 
 .employer-capability-icon svg {
-  color: var(--color-royal-blue);
+  /* color: var(--color-royal-blue); */
   width: 36px;
   height: 36px;
   filter: drop-shadow(0 2px 8px rgba(21, 159, 224, 0.15));
@@ -824,9 +824,7 @@ h2 em {
 
 .employer-capability-featured {
   border-color: rgba(21, 159, 224, 0.55);
-  background: linear-gradient(135deg,
-      rgba(21, 159, 224, 0.12),
-      rgba(6, 59, 115, 0.8));
+  background: var(--color-navy-primary);
   box-shadow: 0 8px 25px rgba(21, 159, 224, 0.12);
 }
 

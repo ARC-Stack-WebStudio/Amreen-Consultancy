@@ -99,8 +99,7 @@ export default function GlobalReach({ navigate }) {
             Countries We <span className="brand-text">Serve</span>
           </h2>
           <p>
-            Connecting talent with opportunities across diverse international
-            markets.
+            Helping skilled professionals explore job opportunities in international markets across different countries.
           </p>
         </header>
         <div className="row align-items-center g-4 g-lg-5">
