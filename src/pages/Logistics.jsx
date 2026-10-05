@@ -159,8 +159,8 @@ export default function Logistics({ navigate }) {
         <div className="container">
           <SectionTitle
             eyebrow="Workforce categories"
-            title="Construction talent, matched to your site needs."
-            text="A focused workforce mix for employers seeking reliable technical, trade and on-site support."
+            title="Logistics personnel aligned with operational needs."
+            text="Transport, warehouse and coordination roles across the supply chain."
           />
           <div className="row g-3">
             {categories.map(({ title, text, icon: Icon }) => (
@@ -180,9 +180,9 @@ export default function Logistics({ navigate }) {
       <section className="construction-cta">
         <div className="container">
           <div>
-            <p className="construction-eyebrow">Build your team</p>
-            <h2>Looking for the right construction workforce?</h2>
-            <p>Tell us what your project needs. We will help you source a dependable workforce ready for overseas deployment.</p>
+            <p className="construction-eyebrow">Build your workforce</p>
+            <h2>Planning your logistics workforce requirements?</h2>
+            <p>Share your roles and timelines with us. We can support candidate sourcing and deployment coordination.</p>
           </div>
           <button className="btn btn-primary" onClick={() => navigate('contact')}>
             Request Manpower <ArrowRight />

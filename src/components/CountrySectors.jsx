@@ -7,7 +7,7 @@ export default function CountrySectors({ country }) {
         <SectionTitle
           eyebrow="Industry sectors"
           title={`Sectors We Serve in ${country.label}`}
-          text="Supporting employers across essential sectors with staffing solutions designed around project demand and workforce continuity."
+          text="We support employers across these sectors with recruitment aligned to operational demands and workforce requirements."
         />
         <div className="row g-3 country-sector-grid">
           {country.sectors.map((sector) => (

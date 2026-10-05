@@ -129,7 +129,7 @@ export default function GlobalReach({ navigate }) {
               className="btn btn-outline-light"
               onClick={() => navigate("contact")}
             >
-              Contact AMREEN
+              Contact AMREEN Consultancy
             </button>
           </div>
         </div>

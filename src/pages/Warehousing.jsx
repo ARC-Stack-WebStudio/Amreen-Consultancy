@@ -18,12 +18,12 @@ import SectionTitle from '../components/SectionTitle';
 import IndustriesWarehousing from "../assets/Imgs/Construction Hero section.png"
 
 const categories = [
-  { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },
-  { title: 'Engineering Teams', text: 'Civil and site engineers for planning, execution and quality control.', icon: Ruler },
-  { title: 'Skilled Trades', text: 'Masons, carpenters, steel fixers and welders for essential build work.', icon: Hammer },
-  { title: 'MEP Specialists', text: 'Electricians and plumbers for dependable mechanical, electrical and plumbing work.', icon: Cable },
-  { title: 'Plant Operators', text: 'Qualified equipment operators for productive, safety-focused project sites.', icon: Settings2 },
-  { title: 'Site Workforce', text: 'Reliable general construction workers ready to support daily operations.', icon: HardHat },
+  { title: 'Warehouse Supervisors', text: 'Supervisors who coordinate warehouse teams and daily workflows.', icon: ClipboardCheck },
+  { title: 'Warehouse Assistants', text: 'Staff supporting receiving, storage and routine warehouse tasks.', icon: Ruler },
+  { title: 'Forklift and Material Handling Operators', text: 'Operators who move and handle goods within warehouse facilities.', icon: Hammer },
+  { title: 'Inventory and Stock Personnel', text: 'Staff responsible for stock checks, records and inventory organisation.', icon: Cable },
+  { title: 'Order Picking and Packing Staff', text: 'Personnel preparing and packing orders for dispatch.', icon: Settings2 },
+  { title: 'Dispatch and Distribution Support', text: 'Workers supporting dispatch, loading and goods movement.', icon: HardHat },
 ];
 
 export default function Warehousing({ navigate }) {
@@ -33,17 +33,17 @@ export default function Warehousing({ navigate }) {
         <div className="container">
           <div className="row align-items-center g-5">
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Industry expertise</p>
+              <p className="construction-eyebrow">Warehousing workforce recruitment</p>
               <h1>Warehousing <em>Workforce</em> Solutions</h1>
               <p className="construction-hero-copy">
-                Build capable project teams with screened, experienced construction professionals and skilled trades sourced for overseas opportunities.
+                Source warehouse personnel to support goods handling, inventory, order preparation and distribution operations.
               </p>
               <button className="btn btn-primary" onClick={() => navigate('contact')}>
                 Request Manpower <ArrowRight />
               </button>
             </div>
             <div className="col-12 col-lg-6">
-              <div className="construction-hero-placeholder" role="img" aria-label="Construction industry image placeholder">
+              <div className="construction-hero-placeholder" role="img" aria-label="Warehouse workforce image">
 
                 <img src={IndustriesWarehousing} alt="" />
                 {/* <div className="construction-placeholder-grid" />
@@ -61,22 +61,22 @@ export default function Warehousing({ navigate }) {
           <div className="row g-5 align-items-center">
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
-                <img src={workforceHero} alt="Construction professional at an international project site" />
-                <div className="construction-image-note"><Truck aria-hidden="true" /> Global project readiness</div>
+                <img src={workforceHero} alt="Warehouse professional supporting logistics operations" />
+                <div className="construction-image-note"><Truck aria-hidden="true" /> Warehouse operations support</div>
               </div>
             </div>
             <div className="col-12 col-lg-6">
-              <p className="construction-eyebrow">Construction recruitment</p>
-              <h2>People who help projects move from plan to progress.</h2>
+              <p className="construction-eyebrow">Warehouse recruitment</p>
+              <h2>Warehouse teams that keep goods moving efficiently.</h2>
               <p>
-                AMREEN CONSULTANCY supports construction employers with dependable manpower sourcing for projects of every scale. We understand that the right workforce affects safety, programme delivery and day-to-day productivity.
+                AMREEN CONSULTANCY helps warehouse employers source personnel for daily operations. Capable teams support safe goods handling, accurate stock movement and efficient order fulfilment.
               </p>
               <p>
-                From experienced engineers and supervisors to certified trades and site support teams, we source candidates matched to your technical requirements and deployment timelines.
+                We source warehouse supervisors, assistants, forklift operators, inventory staff and material handlers to suit operational requirements and schedules.
               </p>
               <div className="construction-intro-points">
-                <span><UsersRound aria-hidden="true" /> Screened, job-ready candidates</span>
-                <span><MoveUpRight aria-hidden="true" /> Overseas deployment support</span>
+                <span><UsersRound aria-hidden="true" /> Candidates screened for warehouse roles</span>
+                <span><MoveUpRight aria-hidden="true" /> Workforce deployment coordination</span>
               </div>
             </div>
           </div>
@@ -87,8 +87,8 @@ export default function Warehousing({ navigate }) {
         <div className="container">
           <SectionTitle
             eyebrow="Workforce categories"
-            title="Construction talent, matched to your site needs."
-            text="A focused workforce mix for employers seeking reliable technical, trade and on-site support."
+            title="Warehouse personnel for logistics operations."
+            text="Warehouse teams for inventory, material handling, order preparation and distribution support."
           />
           <div className="row g-3">
             {categories.map(({ title, text, icon: Icon }) => (
@@ -108,9 +108,9 @@ export default function Warehousing({ navigate }) {
       <section className="construction-cta">
         <div className="container">
           <div>
-            <p className="construction-eyebrow">Build your team</p>
-            <h2>Looking for the right construction workforce?</h2>
-            <p>Tell us what your project needs. We will help you source a dependable workforce ready for overseas deployment.</p>
+            <p className="construction-eyebrow">Plan your warehouse workforce</p>
+            <h2>Need personnel for warehouse operations?</h2>
+            <p>Share your role requirements and timelines with us. We can support candidate sourcing and deployment coordination.</p>
           </div>
           <button className="btn btn-primary" onClick={() => navigate('contact')}>
             Request Manpower <ArrowRight />

@@ -20,32 +20,32 @@ const coreValues = [
   {
     icon: ShieldCheck,
     title: "Integrity",
-    text: "Honest, transparent and responsible recruitment practices.",
+    text: "Recruitment conducted with honesty, transparency and accountability.",
   },
   {
     icon: Briefcase,
     title: "Professionalism",
-    text: "High standards and care throughout every interaction.",
+    text: "Professional standards and considered service at every stage.",
   },
   {
     icon: BadgeCheck,
     title: "Quality",
-    text: "A focus on suitable candidates and dependable workforce solutions.",
+    text: "A commitment to identifying suitable candidates and dependable workforce support.",
   },
   {
     icon: Target,
     title: "Commitment",
-    text: "Staying focused on the requirements of clients and candidates.",
+    text: "Attentive to the needs and priorities of employers and candidates.",
   },
   {
     icon: Check,
     title: "Compliance",
-    text: "Respect for applicable recruitment and employment requirements.",
+    text: "Recruitment practices guided by applicable employment requirements.",
   },
   {
     icon: Handshake,
     title: "Partnership",
-    text: "Long-term relationships with employers, candidates and stakeholders.",
+    text: "Building lasting relationships with employers, candidates and stakeholders.",
   },
 ];
 
@@ -53,32 +53,32 @@ const reasonsToChoose = [
   {
     icon: Users,
     title: "Candidate-focused guidance",
-    text: "Thoughtful support that keeps each candidate’s goals and experience in view.",
+    text: "Guidance that takes each candidate’s experience and career goals into account.",
   },
   {
     icon: Target,
     title: "Employer requirements",
-    text: "Taking time to understand the role, workplace and workforce needs.",
+    text: "Understanding the role, working environment and wider staffing requirements.",
   },
   {
     icon: Globe2,
     title: "International recruitment",
-    text: "Support for recruitment needs that connect people and organisations across markets.",
+    text: "Recruitment support connecting organisations with talent across international markets.",
   },
   {
     icon: MessageCircle,
     title: "Transparent communication",
-    text: "Clear conversations and considered coordination throughout the process.",
+    text: "Open communication and organised coordination at each stage.",
   },
   {
     icon: Compass,
     title: "Industry-focused approach",
-    text: "Recruitment support shaped around the requirements of each sector and role.",
+    text: "Recruitment support aligned with the requirements of each sector and position.",
   },
   {
     icon: HeartHandshake,
     title: "Long-term relationships",
-    text: "A relationship-led approach with care for both sides of every connection.",
+    text: "A relationship-focused approach that considers both employers and candidates.",
   },
 ];
 
@@ -133,16 +133,14 @@ export default function About({ navigate }) {
               About AMREEN CONSULTANCY
             </p>
             <h1 id="about-page-title">
-              Connecting People.
-              <span>Building Global Opportunities.</span>
+              Connecting Talent.
+              <span>Supporting Global Workforce Needs.</span>
             </h1>
             <p className="about-hero__intro">
-              AMREEN CONSULTANCY connects skilled professionals with meaningful
-              international opportunities while helping employers build
-              reliable and capable workforces.
+              AMREEN CONSULTANCY connects skilled professionals with international career opportunities and helps employers source people suited to their workforce requirements.
             </p>
             <a className="about-text-link" href="#about-who-we-are">
-              Discover our approach <ArrowRight aria-hidden="true" />
+              Learn about our approach <ArrowRight aria-hidden="true" />
             </a>
           </div>
 
@@ -166,13 +164,13 @@ export default function About({ navigate }) {
             <div className="about-art__route about-art__route--two" />
             <div className="about-art__card about-art__card--candidate">
               <span>FOR CANDIDATES</span>
-              <strong>Skills meet opportunity</strong>
-              <small>Guidance at every step</small>
+              <strong>Connecting skills with opportunity</strong>
+              <small>Support throughout the process</small>
             </div>
             <div className="about-art__card about-art__card--employer">
               <span>FOR EMPLOYERS</span>
-              <strong>People for the work ahead</strong>
-              <small>Recruitment with purpose</small>
+              <strong>Talent for your workforce needs</strong>
+              <small>Recruitment shaped around your needs</small>
             </div>
             <div className="about-art__footer">
               <span>PEOPLE · PURPOSE · PROGRESS</span>
@@ -192,28 +190,26 @@ export default function About({ navigate }) {
             <SectionTitle
               centered={false}
               eyebrow="Who we are"
-              title="People, opportunities and possibilities without borders."
-              text="AMREEN CONSULTANCY provides recruitment and workforce solutions that connect candidates and organisations across international markets."
+              title="Connecting people and organisations across international markets."
+              text="AMREEN CONSULTANCY delivers recruitment and workforce support that brings candidates and employers together across international markets."
             />
           </div>
           <div className="about-who__details" data-about-reveal>
             <p>
-              We bring candidates and employers together through recruitment
-              shaped around real requirements, professional care and clear
-              communication.
+              We connect candidates and employers through recruitment support grounded in role requirements, professional service and open communication.
             </p>
             <ul className="about-check-list">
               <li>
                 <Check aria-hidden="true" />
-                <span>Guidance for candidates exploring new opportunities</span>
+                <span>Career guidance for candidates considering new opportunities</span>
               </li>
               <li>
                 <Check aria-hidden="true" />
-                <span>Workforce support shaped around employer needs</span>
+                <span>Workforce solutions aligned with employer requirements</span>
               </li>
               <li>
                 <Check aria-hidden="true" />
-                <span>Connections across international markets</span>
+                <span>Recruitment connections across international markets</span>
               </li>
             </ul>
           </div>
@@ -230,7 +226,7 @@ export default function About({ navigate }) {
               Our purpose
             </p>
             <h2 id="about-purpose-title">
-              Clear purpose. Responsible connections.
+              A clear purpose and responsible recruitment.
             </h2>
           </div>
           <div className="about-purpose__grid">
@@ -241,12 +237,10 @@ export default function About({ navigate }) {
             >
               <span className="about-purpose-card__index">01 / OUR VISION</span>
               <h3 id="about-vision-title">
-                To become a trusted global recruitment partner.
+                To build trust as a recruitment partner across international markets.
               </h3>
               <p>
-                We aim to build trust through long-term relationships, reliable
-                workforce solutions and international opportunities—supported
-                by ethical and professional recruitment.
+                We seek to earn trust through lasting relationships, dependable workforce solutions and access to international opportunities, supported by ethical and professional recruitment practices.
               </p>
               <div className="about-purpose-card__tags">
                 <span>Long-term relationships</span>
@@ -266,12 +260,10 @@ export default function About({ navigate }) {
             >
               <span className="about-purpose-card__index">02 / OUR MISSION</span>
               <h3 id="about-mission-title">
-                Connecting talent with the right opportunity.
+                Matching talent with suitable opportunities.
               </h3>
               <p>
-                We focus on understanding employer requirements, identifying
-                suitable candidates and supporting international workforce
-                needs with responsible recruitment and transparent processes.
+                Our work centres on understanding employer needs, identifying suitable candidates and meeting international workforce requirements through responsible recruitment and clear processes.
               </p>
               <div className="about-purpose-card__note">
                 <BadgeCheck aria-hidden="true" />
@@ -295,8 +287,8 @@ export default function About({ navigate }) {
             <SectionTitle
               centered={false}
               eyebrow="Core values"
-              title="The principles that guide us."
-              text="The way we work matters as much as the connections we make."
+              title="Principles that shape our work."
+              text="Our standards guide every recruitment relationship and workforce connection."
             />
           </div>
           <div className="about-card-grid about-values__grid">
@@ -326,8 +318,8 @@ export default function About({ navigate }) {
             <SectionTitle
               centered={false}
               eyebrow="Why Amreen"
-              title="Recruitment built around trust and understanding."
-              text="A considered approach keeps the needs of candidates and employers in view at every stage."
+              title="Recruitment shaped by clear requirements and mutual trust."
+              text="We consider the priorities of employers and candidates throughout the recruitment process."
             />
           </div>
           <div className="about-card-grid about-why__grid">
@@ -358,14 +350,12 @@ export default function About({ navigate }) {
           <div data-about-reveal>
             <p className="about-eyebrow">Our commitment</p>
             <h2 id="about-commitment-title">
-              Built for meaningful workforce connections.
+              Committed to effective workforce connections.
             </h2>
           </div>
           <div className="about-commitment__content" data-about-reveal>
             <p>
-              AMREEN CONSULTANCY aims to provide clear communication,
-              responsible recruitment support and dependable coordination
-              between employers and candidates.
+              AMREEN CONSULTANCY is committed to clear communication, responsible recruitment support and reliable coordination between employers and candidates.
             </p>
             <div className="about-commitment__principles">
               <span>Clear communication</span>
@@ -386,11 +376,10 @@ export default function About({ navigate }) {
               Start a conversation
             </p>
             <h2 id="about-cta-title">
-              Ready to explore the right opportunity?
+              Ready to discuss your recruitment or career goals?
             </h2>
             <p>
-              Let’s start a conversation about your recruitment or career
-              requirements.
+              Contact our team to discuss your workforce needs or career plans.
             </p>
           </div>
           <div className="about-cta__actions">

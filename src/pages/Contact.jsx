@@ -1,2 +1,18 @@
 import SectionTitle from '../components/SectionTitle'; import ContactForm from '../components/ContactForm';
-export default function Contact(){return <><section className="page-hero"><div className="container"><p className="eyebrow light">Contact AMREEN</p><h1>Let’s talk about<br/><em>what’s next.</em></h1><p>Whether you are seeking talent, planning a career move or exploring a partnership, we would like to hear from you.</p></div></section><section className="section"><div className="container narrow"><SectionTitle eyebrow="Send a message" title="Start a conversation with our team"/><ContactForm/></div></section></>}
+
+export default function Contact() {
+    return <>
+        <section className="page-hero">
+            <div className="container">
+                <p className="eyebrow light">Contact AMREEN CONSULTANCY</p>
+                <h1>Discuss<br /><em>your next steps.</em></h1>
+                <p>Contact us about your recruitment requirements, career plans or potential partnership. Our team is ready to understand how we can assist.</p>
+            </div>
+        </section>
+        <section className="section">
+            <div className="container narrow">
+                <SectionTitle eyebrow="Contact our team" title="Tell us how we can support you" />
+                <ContactForm />
+            </div>
+        </section></>
+}
