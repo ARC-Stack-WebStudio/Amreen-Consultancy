@@ -3477,8 +3477,8 @@ footer button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(145deg, rgba(255,255,255,0.98), rgba(234,246,255,0.92));
-  border: 1.5px solid #01338A;
+  background: linear-gradient(#0868B8, #0868B8, #0868B8);
+  border: 0;
   clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
   box-shadow: 0 0 0 1px rgba(8,104,184,0.12), 0 14px 30px rgba(0,143,249,0.12);
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
@@ -3495,10 +3495,23 @@ footer button:hover {
   z-index: -1;
 }
 
+.workforce-category-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1.5px solid #01338A;
+  clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
 .workforce-category-card:hover {
   transform: translateY(-7px) scale(1.025);
-  border-color: #008ff9;
   box-shadow: 0 0 0 2px rgba(0,143,249,0.22), 0 20px 40px rgba(0,143,249,0.24);
+}
+
+.workforce-category-card:hover::after {
+  border-color: #008ff9;
 }
 
 .workforce-category-card > * {
