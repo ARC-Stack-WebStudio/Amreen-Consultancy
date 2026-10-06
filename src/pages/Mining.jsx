@@ -12,7 +12,7 @@ import {
   UsersRound,
   Wrench,
 } from 'lucide-react';
-import workforceHero from '../assets/workforce/workforce-hero.png';
+import workforceHero from '../assets/Imgs/Industries Side Imgs/Mining Side Img.jpg';
 import SectionTitle from '../components/SectionTitle';
 
 import IndustriesMining from "../assets/Imgs/Mining Hero section.png"
