@@ -68,7 +68,7 @@ export default function Petrochemicals({ navigate }) {
               </h1>
 
               <p className="construction-hero-copy">
-                AMREEN CONSULTANCY helps petrochemical companies, refineries,
+                Amreen Consultancy helps petrochemical companies, refineries,
                 chemical plants, and industrial facilities find skilled and
                 experienced professionals for their workforce needs.
               </p>
@@ -128,7 +128,7 @@ export default function Petrochemicals({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps petrochemical companies, refineries,
+                Amreen Consultancy helps petrochemical companies, refineries,
                 chemical plants, and industrial facilities find experienced
                 professionals for their workforce requirements.
               </p>

@@ -15,7 +15,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "UNITED ARAB EMIRATES",
     heading: "Recruitment and Workforce Solutions for UAE Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps employers across the United Arab Emirates source international candidates for project-based and ongoing workforce requirements.",
+      "Amreen Consultancy helps employers across the United Arab Emirates source international candidates for project-based and ongoing workforce requirements.",
     contentHeading:
       "Recruitment support for UAE employers",
     summary:
@@ -46,7 +46,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "QATAR",
     heading: "Recruitment and Workforce Solutions for Qatar Employers",
     heroIntro:
-      "AMREEN CONSULTANCY supports Qatar employers with international recruitment aligned with infrastructure, service and industrial workforce needs.",
+      "Amreen Consultancy supports Qatar employers with international recruitment aligned with infrastructure, service and industrial workforce needs.",
     contentHeading: "Recruitment support for Qatar-based organisations",
     summary:
       "From candidate selection through deployment preparation, we coordinate recruitment support around employer requirements and workforce schedules.",
@@ -76,7 +76,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "Oman",
     heading: "Recruitment and Workforce Solutions for Oman Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps employers in Oman source international candidates for operational and project workforce needs.",
+      "Amreen Consultancy helps employers in Oman source international candidates for operational and project workforce needs.",
     contentHeading:
       "Recruitment support for Oman-based businesses",
     summary:
@@ -107,11 +107,11 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "SAUDI ARABIA",
     heading: "Recruitment and Workforce Solutions for Saudi Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps Saudi employers source personnel aligned with project roles, workforce standards and mobilisation schedules.",
+      "Amreen Consultancy helps Saudi employers source personnel aligned with project roles, workforce standards and mobilisation schedules.",
     contentHeading:
       "Recruitment aligned with Saudi employer requirements",
     summary:
-      "AMREEN CONSULTANCY helps employers source skilled, semi-skilled and professional personnel for sectors including construction, manufacturing, oil and gas, logistics, hospitality and infrastructure. Our recruitment support covers candidate sourcing and screening, documentation, medical checks, visa coordination and deployment. We draw on a candidate network across India and aim to make recruitment clear and professionally coordinated.",
+      "Amreen Consultancy helps employers source skilled, semi-skilled and professional personnel for sectors including construction, manufacturing, oil and gas, logistics, hospitality and infrastructure. Our recruitment support covers candidate sourcing and screening, documentation, medical checks, visa coordination and deployment. We draw on a candidate network across India and aim to make recruitment clear and professionally coordinated.",
     bullets: [
       "International recruitment",
       "Skilled workforce",
@@ -139,7 +139,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "KUWAIT",
     heading: "Recruitment and Workforce Solutions for Kuwait Employers",
     heroIntro:
-      "AMREEN CONSULTANCY supports Kuwait employers sourcing international personnel for construction, industrial and service-sector roles.",
+      "Amreen Consultancy supports Kuwait employers sourcing international personnel for construction, industrial and service-sector roles.",
     contentHeading: "Recruitment support for Kuwait employers",
     summary:
       "We provide candidate screening, recruitment coordination and mobilisation support aligned with employer schedules and operational needs.",
@@ -169,7 +169,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "POLAND",
     heading: "Recruitment and Workforce Solutions for Employers in Poland",
     heroIntro:
-      "AMREEN CONSULTANCY connects employers in Poland with international candidates for technical, industrial and operational roles.",
+      "Amreen Consultancy connects employers in Poland with international candidates for technical, industrial and operational roles.",
     contentHeading: "International recruitment for Polish employers",
     summary:
       "Our recruitment process supports candidate sourcing, screening and preparation to help employers address production, logistics and project staffing needs.",
@@ -199,7 +199,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "MAURITIUS",
     heading: "Recruitment and Workforce Solutions for Mauritius Employers",
     heroIntro:
-      "AMREEN CONSULTANCY helps employers in Mauritius source international candidates for hospitality, service and business operations.",
+      "Amreen Consultancy helps employers in Mauritius source international candidates for hospitality, service and business operations.",
     contentHeading: "Recruitment support for Mauritius employers",
     summary:
       "We connect employers with screened candidates and coordinate recruitment documentation and mobilisation to support workforce continuity.",
@@ -229,7 +229,7 @@ export const COUNTRY_OPTIONS = [
     heroEyebrow: "RUSSIA",
     heading: "Recruitment and Workforce Solutions for Employers in Russia",
     heroIntro:
-      "AMREEN CONSULTANCY supports employers in Russia with international recruitment for industrial, construction and technical roles.",
+      "Amreen Consultancy supports employers in Russia with international recruitment for industrial, construction and technical roles.",
     contentHeading: "Recruitment support for projects in Russia",
     summary:
       "We help employers source suitable candidates and coordinate screening, documentation and workforce mobilisation according to project needs.",

@@ -38,7 +38,7 @@ export default function Footer({ navigate }) {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 AMREEN CONSULTANCY. All Rights Reserved.</span>
+          <span>© 2026 Amreen Consultancy. All Rights Reserved.</span>
           <span>Privacy Policy &nbsp; · &nbsp; Terms & Conditions</span>
         </div>
       </div>

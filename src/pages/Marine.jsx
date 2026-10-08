@@ -67,7 +67,7 @@ export default function Marine({ navigate }) {
               </h1>
 
               <p className="construction-hero-copy">
-                AMREEN CONSULTANCY helps shipbuilding companies, marine contractors,
+                Amreen Consultancy helps shipbuilding companies, marine contractors,
                 shipyards, and offshore businesses find skilled and experienced
                 professionals for their workforce needs.
               </p>
@@ -127,7 +127,7 @@ export default function Marine({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps shipyards, shipbuilding companies, marine
+                Amreen Consultancy helps shipyards, shipbuilding companies, marine
                 contractors, and offshore businesses find skilled and experienced
                 professionals for their workforce requirements.
               </p>

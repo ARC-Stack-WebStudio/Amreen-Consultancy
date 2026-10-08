@@ -69,7 +69,7 @@ export default function Warehousing({ navigate }) {
               <p className="construction-eyebrow">Warehouse recruitment</p>
               <h2>Warehouse teams that keep goods moving efficiently.</h2>
               <p>
-                AMREEN CONSULTANCY helps warehouse employers source personnel for daily operations. Capable teams support safe goods handling, accurate stock movement and efficient order fulfilment.
+                Amreen Consultancy helps warehouse employers source personnel for daily operations. Capable teams support safe goods handling, accurate stock movement and efficient order fulfilment.
               </p>
               <p>
                 We source warehouse supervisors, assistants, forklift operators, inventory staff and material handlers to suit operational requirements and schedules.

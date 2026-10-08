@@ -67,7 +67,7 @@ export default function OilGas({ navigate }) {
               </h1>
 
               <p className="construction-hero-copy">
-                AMREEN CONSULTANCY helps oil and gas companies, refineries,
+                Amreen Consultancy helps oil and gas companies, refineries,
                 EPC contractors, and energy projects find skilled and experienced
                 professionals for their workforce needs.
               </p>
@@ -127,7 +127,7 @@ export default function OilGas({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps oil and gas companies, refineries,
+                Amreen Consultancy helps oil and gas companies, refineries,
                 EPC contractors, and energy businesses find experienced
                 professionals for their workforce requirements.
               </p>
