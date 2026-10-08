@@ -15,7 +15,7 @@ import {
 import workforceHero from '../assets/Imgs/Industries Side Imgs/Oil&Gas Side Img.jpg';
 import SectionTitle from '../components/SectionTitle';
 
-import IndustriesOilandGas from "../assets/Imgs/Oil & Gas Hero section.png"
+import IndustriesOilandGas from "../assets/Imgs/Oil & Gas Hero section.webp";
 
 const categories = [
   {

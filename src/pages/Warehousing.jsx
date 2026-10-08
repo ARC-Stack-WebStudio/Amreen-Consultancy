@@ -15,7 +15,7 @@ import {
 import workforceHero from '../assets/Imgs/Industries Side Imgs/Warehousing Side Img.jpg';
 import SectionTitle from '../components/SectionTitle';
 
-import IndustriesWarehousing from "../assets/Imgs/Construction Hero section.png"
+import IndustriesWarehousing from "../assets/Imgs/Construction Hero section.webp";
 
 const categories = [
   { title: 'Warehouse Supervisors', text: 'Supervisors who coordinate warehouse teams and daily workflows.', icon: ClipboardCheck },
