@@ -130,7 +130,7 @@ export default function About({ navigate }) {
         <div className="about-shell about-hero__layout">
           <div className="about-hero__copy" data-about-reveal>
             <p className="about-eyebrow about-eyebrow--light">
-              About Amreen Consultancy
+              ABOUT Amreen Consultancy
             </p>
             <h1 id="about-page-title">
               Connecting Talent.

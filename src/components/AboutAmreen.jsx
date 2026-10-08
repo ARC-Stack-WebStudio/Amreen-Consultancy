@@ -19,7 +19,7 @@ export default function AboutAmreen({ navigate }) {
         </div>
         <div className="col-12 col-lg-6 order-1 order-lg-1">
           <div className="about-amreen-content">
-            <p className="section-eyebrow">About AMREEN</p>
+            <p className="section-eyebrow">ABOUT Amreen Consultancy</p>
             <span className="brand-divider" aria-hidden="true" />
             <h2 id="about-amreen-heading">Connecting Talent With <span className="brand-text">Global Opportunities</span></h2>
             <p>Amreen Consultancy is focused on connecting talented professionals with meaningful career opportunities across international markets. We help candidates move toward better career possibilities while supporting organizations in finding the right talent.</p>

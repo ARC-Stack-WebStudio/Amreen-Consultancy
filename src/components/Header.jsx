@@ -13,7 +13,7 @@ const links = [
 	// ['services', 'Services'],
 	// ['employers', 'For Employers'],
 	// ['candidates', 'For Candidates'],
-	['jobs', 'JOBS'],
+	// ['jobs', 'JOBS'],
 ];
 
 export default function Header({ page, navigate }) {

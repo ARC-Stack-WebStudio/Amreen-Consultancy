@@ -28,7 +28,7 @@ export default function Footer({ navigate }) {
           </div>
           <div className="col-12 col-lg-3">
             <h3>Let’s connect</h3>
-            <p>Discuss your recruitment or career requirements.</p>
+            <p className="footer-description">Discuss your recruitment or career requirements.</p>
             <button
               className="footer-contact"
               onClick={() => navigate("contact")}
