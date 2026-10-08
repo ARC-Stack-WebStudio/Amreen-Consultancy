@@ -12,7 +12,7 @@ export default function Contact() {
         <section className="section">
             <div className="container narrow">
                 <SectionTitle eyebrow="Contact our team" title="Tell us how we can support you" />
-                <ContactForm />
+                <ContactForm variant="recruitment" />
             </div>
         </section></>
 }
