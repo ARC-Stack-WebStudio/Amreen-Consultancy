@@ -71,7 +71,7 @@ export default function FoodProcessing({ navigate }) {
               <p className="construction-eyebrow">Food processing recruitment</p>
               <h2>Production teams to support safe, consistent operations.</h2>
               <p>
-                AMREEN CONSULTANCY supports food processing employers with workforce sourcing for production and plant operations. Suitable personnel help maintain safe work practices, production schedules and day-to-day operational continuity.
+                Amreen Consultancy supports food processing employers with workforce sourcing for production and plant operations. Suitable personnel help maintain safe work practices, production schedules and day-to-day operational continuity.
               </p>
               <p>
                 We source production workers, machine operators, quality control staff, maintenance technicians and supervisors according to operational requirements and deployment schedules.

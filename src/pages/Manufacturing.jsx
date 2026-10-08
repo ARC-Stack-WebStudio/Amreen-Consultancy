@@ -127,7 +127,7 @@ export default function ManufacturingIndustry({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps manufacturing companies and industrial
+                Amreen Consultancy helps manufacturing companies and industrial
                 businesses find skilled and dependable workers for their workforce
                 needs. We focus on finding people who are suitable for the job,
                 workplace, and required skills.

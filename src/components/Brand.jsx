@@ -9,11 +9,11 @@
 //     <div className={`brand ${light ? 'brand-light' : ''}`}>
 //       <img
 //         src={full ? headerIconFull : headerIcon}
-//         alt="AMREEN CONSULTANCY - Overseas Recruitment Icon"
+//         alt="Amreen Consultancy - Overseas Recruitment Icon"
 //       />
 //       <img
 //         src={full ? headerLogoFull : headerLogo}
-//         alt="AMREEN CONSULTANCY - Overseas Recruitment Logo"
+//         alt="Amreen Consultancy - Overseas Recruitment Logo"
 //       />
 //     </div>
 //   );
@@ -33,7 +33,7 @@ export default function Brand({ light = false }) {
 
       <img
         src={ headerLogo}
-        alt="AMREEN CONSULTANCY - Overseas Recruitment Logo"
+        alt="Amreen Consultancy - Overseas Recruitment Logo"
       />
     </div>
   );

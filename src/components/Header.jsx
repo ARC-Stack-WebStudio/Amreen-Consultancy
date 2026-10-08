@@ -6,14 +6,14 @@ import IndustryDropdown from './IndustryDropdown';
 
 const links = [
 	['home', 'HOME'],
-    ['workforce', 'WORKFORCE'],
+	['about', 'ABOUT'],
+	['workforce', 'WORKFORCE'],
 	['process', 'PROCESS'],
 	// ['jobs', 'Jobs'],
 	// ['services', 'Services'],
 	// ['employers', 'For Employers'],
 	// ['candidates', 'For Candidates'],
-	['about', 'ABOUT'],
-	['contact', 'CONTACT US'],
+	['jobs', 'JOBS'],
 ];
 
 export default function Header({ page, navigate }) {
@@ -43,7 +43,7 @@ export default function Header({ page, navigate }) {
 
 	return (
 		// <header className={`site-header ${scrolled ? 'is-scrolled' : ''}`}>
-		<header className={`site-header ${scrolled }`}>
+		<header className={`site-header ${scrolled}`}>
 			<div className="container">
 				<div className="header-inner">
 					<button className="brand-button" onClick={() => go('home')}>
@@ -77,7 +77,7 @@ export default function Header({ page, navigate }) {
 
 					<button
 						className="btn btn-primary header-cta"
-						onClick={() => go('jobs')}
+						onClick={() => go('contact')}
 					>
 						Find Your Opportunity
 					</button>
@@ -109,7 +109,7 @@ export default function Header({ page, navigate }) {
 					</button>
 				))}
 
-				<button className="btn btn-primary" onClick={() => go('jobs')}>
+				<button className="btn btn-primary" onClick={() => go('contact')}>
 					Find Your Opportunity
 				</button>
 			</div>

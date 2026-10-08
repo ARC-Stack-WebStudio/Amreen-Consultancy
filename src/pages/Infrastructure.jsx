@@ -68,7 +68,7 @@ export default function Infrastructure({ navigate }) {
               </h1>
 
               <p className="construction-hero-copy">
-                AMREEN CONSULTANCY helps infrastructure companies, EPC contractors,
+                Amreen Consultancy helps infrastructure companies, EPC contractors,
                 and large development projects find skilled and experienced
                 professionals for their workforce needs.
               </p>
@@ -128,7 +128,7 @@ export default function Infrastructure({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps infrastructure companies, EPC contractors,
+                Amreen Consultancy helps infrastructure companies, EPC contractors,
                 and development projects find skilled and experienced professionals
                 for their workforce requirements.
               </p>

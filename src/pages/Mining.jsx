@@ -68,7 +68,7 @@ export default function Mining({ navigate }) {
               </h1>
 
               <p className="construction-hero-copy">
-                AMREEN CONSULTANCY helps mining companies, mineral processing
+                Amreen Consultancy helps mining companies, mineral processing
                 facilities, and resource projects find skilled and experienced
                 workers for their manpower needs.
               </p>
@@ -128,7 +128,7 @@ export default function Mining({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps mining companies, quarry operations, and
+                Amreen Consultancy helps mining companies, quarry operations, and
                 mineral processing facilities find experienced people for their
                 workforce requirements.
               </p>

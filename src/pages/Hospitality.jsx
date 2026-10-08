@@ -69,7 +69,7 @@ export default function Hospitality({ navigate }) {
               <p className="construction-eyebrow">Hospitality recruitment</p>
               <h2>Service professionals who support positive guest experiences.</h2>
               <p>
-                AMREEN CONSULTANCY supports hospitality employers with workforce sourcing for guest-facing and operational roles. Suitable service personnel contribute to consistent guest care and efficient day-to-day hotel operations.
+                Amreen Consultancy supports hospitality employers with workforce sourcing for guest-facing and operational roles. Suitable service personnel contribute to consistent guest care and efficient day-to-day hotel operations.
               </p>
               <p>
                 We source hospitality staff for service, housekeeping, food and beverage, front office and operational support roles in line with employer requirements.

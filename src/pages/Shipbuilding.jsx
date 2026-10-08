@@ -70,7 +70,7 @@ export default function Shipbuilding({ navigate }) {
               <p className="construction-eyebrow">Shipbuilding recruitment</p>
               <h2>Skilled teams for shipyard construction and vessel work.</h2>
               <p>
-                AMREEN CONSULTANCY supports shipyards and shipbuilding employers with workforce sourcing for vessel construction and repair. Suitable personnel help maintain safe work practices, project schedules and coordinated yard operations.
+                Amreen Consultancy supports shipyards and shipbuilding employers with workforce sourcing for vessel construction and repair. Suitable personnel help maintain safe work practices, project schedules and coordinated yard operations.
               </p>
               <p>
                 We source marine engineers, supervisors, welders, fabricators, fitters, electricians and shipyard support personnel according to project requirements and timelines.

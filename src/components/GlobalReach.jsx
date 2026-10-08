@@ -54,7 +54,7 @@ function WorldMap() {
     <div
       className="world-map-panel"
       role="img"
-      aria-label="Stylised world map showing AMREEN CONSULTANCY's featured international markets"
+      aria-label="Stylised world map showing Amreen Consultancy's featured international markets"
     >
       <div className="map-grid" />
       <svg viewBox="0 0 700 370" className="world-map" aria-hidden="true">
@@ -129,7 +129,7 @@ export default function GlobalReach({ navigate }) {
               className="btn btn-outline-light"
               onClick={() => navigate("contact")}
             >
-              Contact AMREEN Consultancy
+              Contact Amreen Consultancy
             </button>
           </div>
         </div>

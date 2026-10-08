@@ -130,14 +130,14 @@ export default function About({ navigate }) {
         <div className="about-shell about-hero__layout">
           <div className="about-hero__copy" data-about-reveal>
             <p className="about-eyebrow about-eyebrow--light">
-              About AMREEN CONSULTANCY
+              About Amreen Consultancy
             </p>
             <h1 id="about-page-title">
               Connecting Talent.
               <span>Supporting Global Workforce Needs.</span>
             </h1>
             <p className="about-hero__intro">
-              AMREEN CONSULTANCY connects skilled professionals with international career opportunities and helps employers source people suited to their workforce requirements.
+              Amreen Consultancy connects skilled professionals with international career opportunities and helps employers source people suited to their workforce requirements.
             </p>
             <a className="about-text-link" href="#about-who-we-are">
               Learn about our approach <ArrowRight aria-hidden="true" />
@@ -191,7 +191,7 @@ export default function About({ navigate }) {
               centered={false}
               eyebrow="Who we are"
               title="Connecting people and organisations across international markets."
-              text="AMREEN CONSULTANCY delivers recruitment and workforce support that brings candidates and employers together across international markets."
+              text="Amreen Consultancy delivers recruitment and workforce support that brings candidates and employers together across international markets."
             />
           </div>
           <div className="about-who__details" data-about-reveal>
@@ -355,7 +355,7 @@ export default function About({ navigate }) {
           </div>
           <div className="about-commitment__content" data-about-reveal>
             <p>
-              AMREEN CONSULTANCY is committed to clear communication, responsible recruitment support and reliable coordination between employers and candidates.
+              Amreen Consultancy is committed to clear communication, responsible recruitment support and reliable coordination between employers and candidates.
             </p>
             <div className="about-commitment__principles">
               <span>Clear communication</span>

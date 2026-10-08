@@ -67,7 +67,7 @@ export default function Logistics({ navigate }) {
               </h1>
 
               <p className="construction-hero-copy">
-                AMREEN CONSULTANCY helps logistics companies, warehouses,
+                Amreen Consultancy helps logistics companies, warehouses,
                 transportation businesses, and distribution centers find
                 skilled and reliable workers for their daily operations.
               </p>
@@ -128,7 +128,7 @@ export default function Logistics({ navigate }) {
               </h2>
 
               <p>
-                AMREEN CONSULTANCY helps logistics companies, warehouses,
+                Amreen Consultancy helps logistics companies, warehouses,
                 transportation providers, and distribution centers find reliable
                 workers for their day-to-day operations.
               </p>
