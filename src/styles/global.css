@@ -1723,7 +1723,7 @@ footer button:hover {
 /* About AMREEN and Global Reach */
 .section-eyebrow {
   font-family: "DM Mono", monospace;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.16em;
   font-size: 0.75rem;
   font-weight: 700;
@@ -2095,6 +2095,14 @@ footer button:hover {
 .site-header.is-scrolled .country-dropdown-panel {
   background: rgba(6, 59, 115, 0.96);
 
+}
+
+.footer-description{
+  color: var(--color-sky-blue);
+}
+
+.confident{
+  padding: 0 30px 30px 0;
 }
 
 
