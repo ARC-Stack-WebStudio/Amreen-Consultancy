@@ -131,7 +131,7 @@ export default function About({ navigate }) {
         <div className="about-hero__background" aria-hidden="true">
           <img src={aboutHeroImage} alt="" />
         </div>
-        <div className="about-shell about-hero__layout">
+        <div className="container about-shell about-hero__layout">
           <div className="about-hero__copy" data-about-reveal>
             <p className="about-eyebrow about-eyebrow--light">
               ABOUT Amreen Consultancy
