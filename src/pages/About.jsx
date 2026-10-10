@@ -14,6 +14,7 @@ import {
   Users,
 } from "lucide-react";
 import SectionTitle from "../components/SectionTitle";
+import aboutHeroImage from "../assets/Imgs/About Hero section Img.webp";
 import "../styles/about.css";
 
 const coreValues = [
@@ -127,6 +128,9 @@ export default function About({ navigate }) {
   return (
     <div className="about-page" ref={pageRef}>
       <section className="about-hero" aria-labelledby="about-page-title">
+        <div className="about-hero__background" aria-hidden="true">
+          <img src={aboutHeroImage} alt="" />
+        </div>
         <div className="about-shell about-hero__layout">
           <div className="about-hero__copy" data-about-reveal>
             <p className="about-eyebrow about-eyebrow--light">
@@ -142,40 +146,6 @@ export default function About({ navigate }) {
             <a className="about-text-link" href="#about-who-we-are">
               Learn about our approach <ArrowRight aria-hidden="true" />
             </a>
-          </div>
-
-          <div
-            className="about-hero__art"
-            aria-hidden="true"
-            data-about-reveal
-          >
-            <div className="about-art__grid" />
-            <div className="about-art__orbit about-art__orbit--outer" />
-            <div className="about-art__orbit about-art__orbit--inner" />
-            <div className="about-art__globe">
-              <span className="about-art__longitude" />
-              <span className="about-art__latitude" />
-              <Globe2 strokeWidth={1.15} />
-            </div>
-            <span className="about-art__node about-art__node--one" />
-            <span className="about-art__node about-art__node--two" />
-            <span className="about-art__node about-art__node--three" />
-            <div className="about-art__route about-art__route--one" />
-            <div className="about-art__route about-art__route--two" />
-            <div className="about-art__card about-art__card--candidate">
-              <span>FOR CANDIDATES</span>
-              <strong>Connecting skills with opportunity</strong>
-              <small>Support throughout the process</small>
-            </div>
-            <div className="about-art__card about-art__card--employer">
-              <span>FOR EMPLOYERS</span>
-              <strong>Talent for your workforce needs</strong>
-              <small>Recruitment shaped around your needs</small>
-            </div>
-            <div className="about-art__footer">
-              <span>PEOPLE · PURPOSE · PROGRESS</span>
-              <span>ACROSS BORDERS</span>
-            </div>
           </div>
         </div>
       </section>
