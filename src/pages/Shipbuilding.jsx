@@ -32,7 +32,7 @@ export default function Shipbuilding({ navigate }) {
     <div className="construction-page">
       <section className="construction-hero">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center ">
             <div className="col-12 col-lg-6">
               <p className="construction-eyebrow">Shipbuilding workforce recruitment</p>
               <h1>Shipbuilding <em>Workforce</em> Solutions</h1>
@@ -59,7 +59,7 @@ export default function Shipbuilding({ navigate }) {
 
       <section className="section construction-intro">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row  align-items-center">
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
                 <img src={workforceHero} alt="Shipbuilding professional at a shipyard" />

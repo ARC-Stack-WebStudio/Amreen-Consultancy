@@ -102,7 +102,7 @@ export default function GlobalReach({ navigate }) {
             Helping skilled professionals explore job opportunities in international markets across different countries.
           </p>
         </header>
-        <div className="row align-items-center g-4 g-lg-5">
+        <div className="row align-items-center g-4 g-l">
           <div className="col-12 col-lg-6">
             <WorldMap />
           </div>

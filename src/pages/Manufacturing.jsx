@@ -56,7 +56,7 @@ export default function ManufacturingIndustry({ navigate }) {
     <div className="construction-page">
       <section className="construction-hero">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center ">
 
             <div className="col-12 col-lg-6">
               <p className="construction-eyebrow">
@@ -102,7 +102,7 @@ export default function ManufacturingIndustry({ navigate }) {
 
       <section className="section construction-intro">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row  align-items-center">
 
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">

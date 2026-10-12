@@ -10,7 +10,7 @@ const points = [
 export default function AboutAmreen({ navigate }) {
   return <section className="section about-amreen" id="about-amreen" aria-labelledby="about-amreen-heading">
     <div className="container">
-      <div className="row align-items-center g-4 g-lg-5">
+      <div className="row align-items-center g-4 g-l">
         <div className="col-12 col-lg-6 order-2 order-lg-2">
           <div className="about-amreen-visual" aria-hidden="true">
             <img src={aboutGlobalImage} alt="" />
