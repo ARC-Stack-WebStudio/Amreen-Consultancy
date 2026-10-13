@@ -6,7 +6,8 @@ export default function Footer({ navigate }) {
   return (
     <footer>
       <div className="container">
-        <div className="row g-5">
+        {/* <div className="row "> */}
+        <div className="row">
           <div className="col-12 col-md-5 col-lg-4">
             <Brand light />
             <p className="footer-intro">

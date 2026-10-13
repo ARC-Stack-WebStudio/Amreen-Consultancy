@@ -265,7 +265,7 @@ h2 em {
   margin-left: auto;
   width: 44px;
   height: 44px;
-  color: var(--color-ice-blue);
+  color: var(--color-royal-blue);
 }
 
 .mobile-menu {
@@ -1051,6 +1051,10 @@ h2 em {
   .home-hero-stats {
     width: min(58%, 580px);
   }
+
+  .home-hero-stats {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1092,6 +1096,10 @@ h2 em {
     width: 100%;
   }
 
+  .home-hero-stats {
+    margin-bottom: 80px;
+  }
+
   .home-hero h1 {
     font-size: clamp(3rem, 13vw, 4.25rem);
   }
@@ -1100,7 +1108,7 @@ h2 em {
 @media (max-width: 575.98px) {
   .home-hero-content {
     min-height: 770px;
-    padding-top: 42px;
+    padding-top: 2px;
   }
 
   .home-hero-copy .eyebrow {
@@ -1148,6 +1156,10 @@ h2 em {
 
   .home-hero-stats span {
     font-size: 0.66rem;
+  }
+
+  .home-hero-stats {
+    margin-bottom: 30px;
   }
 }
 
@@ -1551,6 +1563,9 @@ footer button:hover {
     font-weight: 600;
     color: var(--color-silver);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    /* newadd */
+    width: 100%;
+    justify-content: space-between;
   }
 
   .mobile-menu button:not(.btn):hover {
@@ -1562,7 +1577,7 @@ footer button:hover {
   }
 
   .hero {
-    padding-top: 75px;
+    padding-top: 35px;
   }
 
   .hero-orbit {
@@ -1600,7 +1615,7 @@ footer button:hover {
   }
 
   .footer-bottom {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -1610,7 +1625,7 @@ footer button:hover {
   }
 
   .hero {
-    padding-top: 62px;
+    padding-top: 28px;
   }
 
   .hero h1 {
@@ -1756,7 +1771,8 @@ footer button:hover {
   left: -300px;
   bottom: -270px;
 }
-.about-amreen-content > p:not(.section-eyebrow) {
+
+.about-amreen-content>p:not(.section-eyebrow) {
   max-width: 590px;
   font-size: 0.96rem;
   margin-bottom: 15px;
@@ -1771,6 +1787,7 @@ footer button:hover {
   background: #dff1ff;
   box-shadow: 0 20px 45px rgba(1, 51, 138, 0.14);
 }
+
 .about-amreen-visual::before {
   content: "";
   position: absolute;
@@ -1780,11 +1797,13 @@ footer button:hover {
   border: 1px solid rgba(255, 255, 255, 0.36);
   border-radius: inherit;
 }
+
 .about-amreen-visual img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .about-visual-caption {
   position: absolute;
   z-index: 2;
@@ -1800,9 +1819,11 @@ footer button:hover {
   font-size: 0.61rem;
   letter-spacing: 0.12em;
 }
+
 .about-visual-caption b {
   color: var(--color-royal-blue);
 }
+
 .map-grid {
   position: absolute;
   inset: 0;
@@ -1812,6 +1833,7 @@ footer button:hover {
   background-size: 35px 35px;
   mask-image: linear-gradient(135deg, transparent 5%, #000 55%, transparent);
 }
+
 .about-points {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1873,22 +1895,26 @@ footer button:hover {
   background: var(--color-navy-primary);
   color: var(--color-ice-blue);
 }
+
 @media (max-width: 991.98px) {
-  .about-amreen-content > p:not(.section-eyebrow) {
+  .about-amreen-content>p:not(.section-eyebrow) {
     max-width: none;
   }
 
   .about-amreen-visual {
-    max-width: 620px;
+    /* max-width: 620px; */
+    max-width: 100%;
     margin-left: auto;
   }
 }
+
 @media (max-width: 767.98px) {
   .about-amreen-visual {
     max-width: 100%;
     margin-top: 8px;
   }
 }
+
 @media (max-width: 575.98px) {
   .about-points {
     grid-template-columns: 1fr;
@@ -1909,11 +1935,12 @@ footer button:hover {
     border-bottom: 0;
   }
 
-  .about-point > span,
-  .about-point > svg {
+  .about-point>span,
+  .about-point>svg {
     margin: 2px 0 0;
   }
 }
+
 .global-reach {
   position: relative;
   overflow: hidden;
@@ -2084,7 +2111,7 @@ footer button:hover {
   display: grid;
   min-width: 255px;
   padding: 10px;
-  background: #fff;
+  background: var(--color-navy-dark);
   border: 1px solid rgba(21, 159, 224, 0.34);
   border-radius: 14px;
   box-shadow: 0 18px 38px rgba(6, 59, 115, 0.35);
@@ -2097,11 +2124,11 @@ footer button:hover {
 
 }
 
-.footer-description{
+.footer-description {
   color: var(--color-sky-blue);
 }
 
-.confident{
+.confident {
   padding: 0 30px 30px 0;
 }
 
@@ -2919,7 +2946,7 @@ footer button:hover {
   text-align: center
 }
 
-.construction-hero-placeholder  img{
+.construction-hero-placeholder img {
   width: 100%;
   height: 370px;
 }
@@ -3484,9 +3511,17 @@ footer button:hover {
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 
-.workforce-category-card:nth-child(9) { grid-column: 2 / span 3; }
-.workforce-category-card:nth-child(10) { grid-column: 5 / span 3; }
-.workforce-category-card:nth-child(11) { grid-column: 8 / span 3; }
+.workforce-category-card:nth-child(9) {
+  grid-column: 2 / span 3;
+}
+
+.workforce-category-card:nth-child(10) {
+  grid-column: 5 / span 3;
+}
+
+.workforce-category-card:nth-child(11) {
+  grid-column: 8 / span 3;
+}
 
 .workforce-category-card:hover {
   transform: translateY(-4px);

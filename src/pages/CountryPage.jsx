@@ -23,7 +23,7 @@ export default function CountryPage({ page, navigate }) {
 
       <section className="section country-content">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row  align-items-center">
             <div className="col-12 col-lg-6">
               <div className="country-visual">
                 <img src={country.image} alt={country.imageAlt} />

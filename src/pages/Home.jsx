@@ -262,8 +262,8 @@ export default function Home({ navigate }) {
       </section>
       <section className="contact-section section" id="contact">
         <div className="container">
-          <div className="row g-5">
-            <div className="col-12 col-lg-5">
+          <div className="row ">
+            <div className="col-12 col-l">
               <p className="eyebrow">Start a conversation</p>
               <h2>Your next opportunity starts here.</h2>
               <p>

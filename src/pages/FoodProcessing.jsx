@@ -32,7 +32,7 @@ export default function FoodProcessing({ navigate }) {
     <div className="construction-page">
       <section className="construction-hero">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center ">
             <div className="col-12 col-lg-6">
               <p className="construction-eyebrow">Food processing workforce</p>
               <h1>Food Processing <em>Workforce</em> Solutions</h1>
@@ -60,7 +60,7 @@ export default function FoodProcessing({ navigate }) {
 
       <section className="section construction-intro">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row  align-items-center">
             <div className="col-12 col-lg-6">
               <div className="construction-intro-visual">
                 <img src={workforceHero} alt="Food processing professional at an international production facility" />
