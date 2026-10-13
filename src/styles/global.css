@@ -120,7 +120,7 @@ p {
   margin: 18px 0 0;
 }
 
-.brand-text,
+/* .brand-text,
 h1 em,
 h2 em {
   background: var(--gradient-brand);
@@ -128,7 +128,7 @@ h2 em {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: var(--color-royal-blue);
-}
+} */
 
 .btn {
   min-height: 48px;
@@ -714,7 +714,7 @@ h2 em {
 }
 
 .feature svg {
-  color: var(--color-royal-blue);
+  /* color: var(--color-royal-blue); */
   width: 36px;
   height: 36px;
   margin-bottom: 0;
@@ -1727,7 +1727,7 @@ footer button:hover {
   letter-spacing: 0.16em;
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--color-royal-blue);
+  /* color:#fff; */
   margin-bottom: 12px;
 }
 
@@ -1969,7 +1969,7 @@ footer button:hover {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-xl);
-  border: 1px solid rgba(21, 159, 224, 0.44);
+  border: 1px solid #fff;
   background: rgba(6, 59, 115, 0.45);
   box-shadow:
     inset 0 0 55px rgba(21, 159, 224, 0.045),

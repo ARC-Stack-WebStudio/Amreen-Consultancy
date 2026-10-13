@@ -53,7 +53,10 @@ function ExistingContactForm() {
         <textarea id="message" name="message" rows="5" value={data.message} onChange={update} placeholder="Please share your recruitment, career or partnership enquiry." aria-invalid={!!errors.message} aria-describedby={errors.message ? 'message-error' : undefined} />
         {errors.message && <small id="message-error">{errors.message}</small>}
       </div>
-      <div className="col-12"><button className="btn btn-primary" disabled={loading}>{loading ? 'Sending…' : 'Send enquiry'}<span>→</span></button></div>
+      <div className="col-12">
+        <button className="btn btn-primary" disabled={loading}>{loading ? 'Sending…' : 'Send enquiry'}<span>→</span></button>
+        <p className="form-privacy-note">Your trust matters to us. We handle your personal information with confidentiality and care.</p>
+      </div>
     </div>
   </form>;
 }
@@ -172,7 +175,10 @@ function RecruitmentForm() {
         <label htmlFor="enquiry-requirements">Additional Requirements</label>
         <textarea id="enquiry-requirements" name="requirements" rows="5" value={data.requirements} onChange={update} placeholder="Tell us more about your project timeline, specific skills needed, or any other details..." />
       </div>
-      <div className="col-12"><button className="btn btn-primary" type="submit" disabled={loading}>{loading ? 'Sending…' : 'Submit Enquiry'}</button></div>
+      <div className="col-12">
+        <button className="btn btn-primary" type="submit" disabled={loading}>{loading ? 'Sending…' : 'Submit Enquiry'}</button>
+        <p className="form-privacy-note">Your trust matters to us. We handle your personal information with confidentiality and care.</p>
+      </div>
     </div>
   </form>;
 }
