@@ -17,7 +17,7 @@ export default function WhyEmployersChooseAmreen() {
     <section className="employer-capabilities" id="why-amreen" aria-labelledby="why-amreen-heading">
       <div className="container">
         <header className="employer-capabilities-heading text-center mx-auto">
-          <p className="section-eyebrow">Why Employers Choose AMREEN</p>
+          <p className="section-eyebrow">Why Employers Choose Amreen</p>
           <span className="brand-divider mx-auto" aria-hidden="true" />
           <h2 id="why-amreen-heading">Building Workforce Connections Worldwide</h2>
           <p>We connect businesses with the right workforce and provide end-to-end management to support a smooth and reliable recruitment process.</p>
