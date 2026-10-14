@@ -118,7 +118,7 @@ export default function GlobalReach({ navigate }) {
         </div>
         <div className="global-reach-cta">
           <p>Looking for your next international opportunity?</p>
-          <div>
+          <div className="global-reach-cta-btn-actions">
             <button
               className="btn btn-primary"
               onClick={() => navigate("jobs")}
