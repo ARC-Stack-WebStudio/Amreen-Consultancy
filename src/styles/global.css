@@ -903,6 +903,12 @@ h2 em {
   z-index: -1;
 }
 
+.about-hero-visual{
+   position: absolute;
+  inset: 1;
+  z-index: 0;
+}
+
 .home-hero-visual:after {
   content: "";
   position: absolute;

@@ -14,14 +14,17 @@ export default function AboutAmreen({ navigate }) {
       id="about-amreen"
       aria-labelledby="about-amreen-heading"
     >
-      <div className="container">
+      <div className="home-hero-visual about-hero-visual" aria-hidden="true">
+        <img src={aboutGlobalImage} alt="" />
+      </div>
+      <div className="container home-hero-content">
         <div className="row align-items-center g-4 g-xl-5">
           <div className="col-12 col-lg-6 order-2 order-lg-2">
             <div className="home-hero-visual">
-              <img
+              {/* <img
                 src={aboutGlobalImage}
                 alt="A luminous blue globe connected by global network lights, with an aircraft flying above a modern city"
-              />
+              /> */}
             </div>
           </div>
           <div className="col-12 col-lg-6 order-1 order-lg-1">
