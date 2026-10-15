@@ -1,6 +1,8 @@
 import { ArrowRight, MapPin } from "lucide-react";
 import CountryCard from "./CountryCard";
 
+import worldmap from "../assets/Imgs/world-map.jpeg"
+
 const countries = [
   {
     code: "UAE",
@@ -57,7 +59,12 @@ function WorldMap() {
       aria-label="Stylised world map showing Amreen Consultancy's featured international markets"
     >
       <div className="map-grid" />
-      <svg viewBox="0 0 700 370" className="world-map" aria-hidden="true">
+
+      <img className="world-map"
+      src={worldmap} 
+      alt="A luminous blue globe connected by global network lights, with an aircraft flying above a modern city" />
+
+      {/* <svg viewBox="0 0 700 370" className="world-map" aria-hidden="true">
         <path
           className="map-land"
           d="M45 110l30-36 65 7 21 29-21 21-40-8-22 29-38-8zm120-5 32-28 37 8 24 34-20 26-38-8-16 35-34-5-11-32zm69 99 36 6 22 46-13 64-27-2-13-43 7-38zm118-112 46-25 42 10 21 27-35 19-23 31-46-4-25-27zm115 7 37-18 54 7 38 29-14 25-52-3-25 29-41-14zm99 90 37 12 25 47-16 48-30-18-18-46zm-122 50 43 8 17 31-28 21-48-13-9-28z"
@@ -80,7 +87,7 @@ function WorldMap() {
           <circle cx="421" cy="235" r="4" />
           <circle cx="321" cy="111" r="4" />
         </g>
-      </svg>
+      </svg> */}
       <div className="map-key">
         <MapPin aria-hidden="true" />
         <span>Featured markets</span>

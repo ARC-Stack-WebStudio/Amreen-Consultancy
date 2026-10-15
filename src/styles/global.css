@@ -2089,7 +2089,7 @@ footer button:hover {
 }
 
 .world-map-panel {
-  min-height: 400px;
+  min-height: 380px;
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-xl);
@@ -2116,10 +2116,10 @@ footer button:hover {
 .world-map {
   position: absolute;
   z-index: 1;
-  width: 110%;
+  width: 100%;
   height: auto;
-  left: -5%;
-  top: 12%;
+  /* left: -5%; */
+  /* top: 1%; */
   filter: drop-shadow(0 8px 15px rgba(6, 59, 115, 0.35));
 }
 
