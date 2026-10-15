@@ -245,7 +245,7 @@ h2 em {
 .desktop-nav button {
   font-size: 0.79rem;
   font-weight: 600;
-  color: var(--color-sky-blue);
+  color: var(--color-royal-blue);
   padding: 6px 0;
 }
 
@@ -254,10 +254,11 @@ h2 em {
 }
 
 
-.desktop-nav button:hover,
+
 .desktop-nav .active {
-  color: var(--color-sky-blue);
+  border-bottom: 2px solid var(--color-royal-blue);
 }
+
 
 .header-cta {
   font-size: 0.76rem;
@@ -2096,7 +2097,7 @@ footer button:hover {
 .countries-trigger:hover,
 .countries-trigger.active,
 .countries-trigger.open {
-  color: var(--color-sky-blue);
+  color: var(--color-royal-blue);
 }
 
 .countries-trigger-icon {
@@ -2161,6 +2162,10 @@ footer button:hover {
   transition:
     background 0.2s ease,
     color 0.2s ease;
+}
+
+.country-dropdown-panel button{
+  color: #ffff;
 }
 
 .country-dropdown-item:not(:last-child) {
