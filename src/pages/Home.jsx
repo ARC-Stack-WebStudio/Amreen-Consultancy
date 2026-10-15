@@ -155,7 +155,7 @@ export default function Home({ navigate }) {
       <section className="section confident">
         <div className="container">
           <SectionTitle
-            eyebrow="The AMREEN difference"
+            eyebrow="The Amreen difference"
             title="A more confident way forward"
           />
           <div className="row g-4">
@@ -263,7 +263,7 @@ export default function Home({ navigate }) {
       <section className="contact-section section" id="contact">
         <div className="container">
           <div className="row ">
-            <div className="col-12 col-l">
+            <div className="col-12 col-lg-6">
               <p className="eyebrow">Start a conversation</p>
               <h2>Your next opportunity starts here.</h2>
               <p>
@@ -271,7 +271,7 @@ export default function Home({ navigate }) {
                 how we can support you.
               </p>
             </div>
-            <div className="col-12 col-lg-7">
+            <div className="col-12 col-lg-6">
               <ContactForm />
             </div>
           </div>

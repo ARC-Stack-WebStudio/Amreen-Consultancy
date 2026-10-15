@@ -14,7 +14,7 @@ export default function AboutAmreen({ navigate }) {
         <div className="col-12 col-lg-6 order-2 order-lg-2">
           <div className="about-amreen-visual" aria-hidden="true">
             <img src={aboutGlobalImage} alt="" />
-            <p className="about-visual-caption">AMREEN <b>CONSULTANCY</b></p>
+            <p className="about-visual-caption"><b>Amreen Consultancy</b></p>
           </div>
         </div>
         <div className="col-12 col-lg-6 order-1 order-lg-1">
@@ -30,7 +30,7 @@ export default function AboutAmreen({ navigate }) {
               </article>)}
             </div>
             <div className="about-actions">
-              <button className="btn btn-primary" onClick={() => navigate('about')}>Discover AMREEN Cousultancy<ArrowRight /></button>
+              <button className="btn btn-primary" onClick={() => navigate('about')}>Discover Amreen Consultancy<ArrowRight /></button>
               <button className="btn about-secondary" onClick={() => navigate('jobs')}>Explore Opportunities</button>
             </div>
           </div>
