@@ -17,13 +17,13 @@ import AboutAmreen from "../components/AboutAmreen";
 import GlobalReach from "../components/GlobalReach";
 import WhyEmployersChooseAmreen from "../components/WhyEmployersChooseAmreen";
 const categories = [
-  ["Healthcare", Stethoscope],
   ["Construction", Wrench],
-  ["Hospitality", HeartHandshake],
-  ["Information Technology", ChartNoAxesCombined],
   ["Engineering", Wrench],
-  ["Administration", BriefcaseBusiness],
+  ["Information Technology", ChartNoAxesCombined],
+  ["Healthcare", Stethoscope],
   ["Sales & Marketing", ChartNoAxesCombined],
+  ["Hospitality", HeartHandshake],
+  ["Administration", BriefcaseBusiness],
   ["Skilled Trades", Wrench],
 ];
 const features = [
