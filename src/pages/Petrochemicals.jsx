@@ -15,7 +15,7 @@ import {
 import workforceHero from '../assets/Imgs/Industries Side Imgs/Petrochemical Side Img.jpg';
 import SectionTitle from '../components/SectionTitle';
 
-import IndustriesPetrochemical from "../assets/Imgs/Petrochemical Hero section.png"
+import IndustriesPetrochemical from "../assets/Imgs/Petrochemical Hero section.webp";
 
 
 const categories = [

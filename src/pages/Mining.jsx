@@ -15,7 +15,7 @@ import {
 import workforceHero from '../assets/Imgs/Industries Side Imgs/Mining Side Img.jpg';
 import SectionTitle from '../components/SectionTitle';
 
-import IndustriesMining from "../assets/Imgs/Mining Hero section.png"
+import IndustriesMining from "../assets/Imgs/Mining Hero section.webp";
 
 
 const categories = [

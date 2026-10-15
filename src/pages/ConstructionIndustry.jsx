@@ -12,9 +12,9 @@ import {
   UsersRound,
   Wrench,
 } from 'lucide-react';
-import workforceHero from '../assets/workforce/workforce-hero.png';
+import workforceHero from '../assets/Imgs/Workforce Hero Img.webp';
 import SectionTitle from '../components/SectionTitle';
-import IndustriesCounstruction from "../assets/Imgs/Construction Hero section.png"
+import IndustriesCounstruction from "../assets/Imgs/Construction Hero section.webp";
 
 const categories = [
   { title: 'Project Leadership', text: 'Project managers and construction supervisors who keep work coordinated on site.', icon: ClipboardCheck },

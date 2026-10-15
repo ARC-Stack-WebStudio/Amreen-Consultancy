@@ -19,7 +19,7 @@ import {
   Wrench,
   Zap,
 } from "lucide-react";
-import workforceHero from "../assets/workforce/workforce-hero.png";
+import workforceHero from "../assets/Imgs/Workforce Hero Img.webp";
 // import workforceSideImage from "../assets/Imgs/Workforce Side Image.webp";
 
 const categories = [
