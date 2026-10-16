@@ -63,7 +63,7 @@ export default function AboutAmreen({ navigate }) {
                   className="btn btn-primary"
                   onClick={() => navigate('about')}
                 >
-                  Discover AMREEN Cousultancy
+                  Discover Amreen Consultancy
                   <ArrowRight aria-hidden="true" />
                 </button>
                 <button
