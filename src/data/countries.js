@@ -33,7 +33,7 @@ export const COUNTRY_OPTIONS = [
       "Logistics",
       "Hospitality",
       "Manufacturing",
-      "Engineering",
+      "MEP",
       "Facilities Management",
     ],
     image: UAEPackageing ,
