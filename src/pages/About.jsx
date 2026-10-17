@@ -281,13 +281,13 @@ export default function About({ navigate }) {
       >
         <div className="about-shell">
           <div
-            className="about-section-heading"
+            className="about-section-heading about-section-heading--mathauto"
             id="about-why-heading"
             data-about-reveal
           >
             <SectionTitle
               centered={false}
-              eyebrow="Why Amreen"
+              eyebrow="WHY Amreen Consultancy"
               title="Recruitment shaped by clear requirements and mutual trust."
               text="We consider the priorities of employers and candidates throughout the recruitment process."
             />

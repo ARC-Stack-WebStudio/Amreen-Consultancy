@@ -101,6 +101,10 @@
   text-transform: uppercase;
 }
 
+.about-section-heading--mathauto .eyebrow{
+  text-transform: none !important;
+}
+
 .about-page .section-title>.eyebrow::before {
   width: 26px;
   height: 1px;
