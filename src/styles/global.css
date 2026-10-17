@@ -2447,6 +2447,7 @@ footer button:hover {
 
 .country-content h2 {
   margin-bottom: 16px;
+  font-size: 36px;
 }
 
 .country-check-list {
@@ -3119,7 +3120,8 @@ footer button:hover {
 
 .construction-intro h2 {
   max-width: 550px;
-  margin-bottom: 16px
+  margin-bottom: 16px;
+  font-size: 36px;
 }
 
 .construction-intro p:not(.construction-eyebrow) {
@@ -3146,7 +3148,7 @@ footer button:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* object-position: left; */
+  object-position: right center;
   /* margin-left: 12px; */
 }
 
@@ -3300,7 +3302,8 @@ footer button:hover {
 
 .construction-cta h2 {
   margin-bottom: 9px;
-  color: #fff
+  color: #fff;
+  font-size: 37px;
 }
 
 .construction-cta p:not(.construction-eyebrow) {
@@ -3411,6 +3414,10 @@ footer button:hover {
   font: 700 .7rem "DM Mono", monospace;
   letter-spacing: .14em;
   margin-bottom: 12px
+}
+
+.workforce-process-and-quality{
+  gap: 35px;
 }
 
 .workforce-page h2 {
