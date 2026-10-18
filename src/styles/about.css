@@ -101,7 +101,7 @@
   text-transform: uppercase;
 }
 
-.about-section-heading--mathauto .eyebrow{
+.about-section-heading--mathauto .eyebrow {
   text-transform: none !important;
 }
 
@@ -732,6 +732,12 @@
   }
 }
 
+@media (max-width: 768px) {
+ .about-purpose__intro .about-eyebrow {
+  margin-bottom: 10px;
+ }
+}
+
 @media (max-width: 720px) {
   .about-shell {
     width: min(var(--about-content-width), calc(100% - 36px));
@@ -751,7 +757,8 @@
   }
 
   .about-hero__background img {
-    object-position: 62% 60%;
+    /* object-position: 62% 60%; */
+    object-position: 39% 55%;
   }
 
   .about-hero__layout {

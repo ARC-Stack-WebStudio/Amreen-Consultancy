@@ -102,7 +102,7 @@ export default function Process({ navigate }) {
           <img src={workforceImage} alt="" />
         </div>
         <div className="container">
-          <div>
+          <div className="process-section-cta">
             <p className="process-eyebrow">LET'S WORK TOGETHER</p>
             <h2>
               Need a Skilled

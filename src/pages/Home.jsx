@@ -155,7 +155,7 @@ export default function Home({ navigate }) {
       <section className="section confident">
         <div className="container">
           <SectionTitle
-            eyebrow="The Amreen difference"
+            eyebrow="The Amreen Consultancy difference"
             title="A more confident way forward"
           />
           <div className="row g-4">

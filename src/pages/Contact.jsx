@@ -2,7 +2,7 @@ import SectionTitle from '../components/SectionTitle'; import ContactForm from '
 
 export default function Contact() {
     return <>
-        <section className="page-hero">
+        <section className="page-hero contact-hero-section">
             <div className="container">
                 <p className="eyebrow light">Contact Amreen Consultancy</p>
                 <h1>Discuss<br /><em>your next steps.</em></h1>
