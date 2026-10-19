@@ -202,7 +202,8 @@
 .about-hero h1 span {
   display: block;
   margin-top: 0.12em;
-  color: var(--color-royal-blue);
+  /* color: var(--color-royal-blue); */
+  color: var(--color-blue-dark);
 }
 
 .about-hero__intro {
