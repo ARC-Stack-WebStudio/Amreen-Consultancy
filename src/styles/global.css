@@ -1462,8 +1462,9 @@ h2 em {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: var(--gradient-brand);
-  color: var(--color-navy-black);
+  background: var(--color-royal-blue);
+  /* color: var(--color-navy-black); */
+  color: #fff;
   display: grid;
   place-items: center;
   box-shadow: var(--shadow-brand-soft);
@@ -3634,7 +3635,8 @@ footer button:hover {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background: linear-gradient(145deg, #01338a 0%, #014bb9 100%);
+  /* background: linear-gradient(145deg, #01338a 0%, #014bb9 100%); */
+  background: var(--color-royal-blue);
   border: 1px solid rgba(0, 143, 249, 0.72);
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(1, 51, 138, 0.16);
@@ -3764,12 +3766,13 @@ footer button:hover {
 
 .workforce-process-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px
 }
 
 .workforce-process-grid article {
-  min-height: 108px;
+  min-height: 80px;
   padding: 16px 10px;
   background: var(--color-ice-blue);
   border-radius: 10px;
@@ -4133,7 +4136,7 @@ footer button:hover {
   content: "→";
   position: absolute;
   right: -7px;
-  top: 30px;
+  top: 15px;
   color: var(--color-sky-blue);
   font-size: 1rem
 }

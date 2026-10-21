@@ -53,7 +53,7 @@ export default function Process({ navigate }) {
               with international opportunities.
             </p>
           </div>
-          <p className="process-script">
+          {/* <p className="process-script">
             People
             <br />
             Build
@@ -61,17 +61,25 @@ export default function Process({ navigate }) {
             Better
             <br />
             Tomorrows
-          </p>
+          </p> */}
         </div>
       </section>
       <section className="process-steps section">
         <div className="container text-center">
           <p className="process-eyebrow">OUR PROCESS</p>
           <h2>A Structured Recruitment Journey</h2>
+          <div className="process-steps-copy">
+            <p>Amreen Consultancy provides a simple and reliable recruitment process to help employers 
+              find the right people for their workforce. We carefully review candidates’ skills, experience,
+               and job requirements before selection. From the initial hiring process to documentation and
+                deployment, our team offers support at every step to make recruitment smooth, clear, and 
+                hassle-free for both employers and candidates.</p>
+          </div>
           <div className="process-step-grid">
             {steps.map(([name, Icon], i) => (
               <article key={name}>
-                <span>0{i + 1}</span>
+                {/* number count */}
+                {/* <span>0{i + 1}</span> */}
                 <Icon />
                 <b>{name}</b>
               </article>
@@ -110,7 +118,8 @@ export default function Process({ navigate }) {
               Workforce?
             </h2>
             <button
-              className="btn btn-primary"
+              // className="btn btn-primary"
+              className="about-button about-button--primary"
               onClick={() => navigate("contact")}
             >
               Discuss Your Requirements <ArrowRight />

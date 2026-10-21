@@ -19,12 +19,12 @@ import WhyEmployersChooseAmreen from "../components/WhyEmployersChooseAmreen";
 const categories = [
   ["Construction", Wrench],
   ["Engineering", Wrench],
+  ["Skilled Trades", Wrench],
   ["Information Technology", ChartNoAxesCombined],
-  ["Healthcare", Stethoscope],
+  ["Administration", BriefcaseBusiness],
   ["Sales & Marketing", ChartNoAxesCombined],
   ["Hospitality", HeartHandshake],
-  ["Administration", BriefcaseBusiness],
-  ["Skilled Trades", Wrench],
+  ["Healthcare", Stethoscope],
 ];
 const features = [
   ["Right People", "We connect opportunity with the right talent.", UsersRound],

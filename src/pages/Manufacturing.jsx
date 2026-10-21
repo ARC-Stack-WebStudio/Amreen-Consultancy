@@ -183,7 +183,7 @@ export default function ManufacturingIndustry({ navigate }) {
             <h2>Need a workforce for your manufacturing operations?</h2>
             <p>Share your roles and timelines with us. We can support candidate sourcing and deployment coordination.</p>
           </div>
-          <button className="btn btn-primary" onClick={() => navigate('contact')}>
+          <button className="about-button about-button--primary" onClick={() => navigate('contact')}>
             Request Manpower <ArrowRight />
           </button>
         </div>

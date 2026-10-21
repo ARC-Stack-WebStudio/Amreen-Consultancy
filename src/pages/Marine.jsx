@@ -183,7 +183,7 @@ export default function Marine({ navigate }) {
             <h2>Need personnel for marine or offshore operations?</h2>
             <p>Share your roles and timelines with us. We can support candidate sourcing and deployment coordination.</p>
           </div>
-          <button className="btn btn-primary" onClick={() => navigate('contact')}>
+          <button className="about-button about-button--primary" onClick={() => navigate('contact')}>
             Request Manpower <ArrowRight />
           </button>
         </div>
