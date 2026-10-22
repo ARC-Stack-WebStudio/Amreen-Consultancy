@@ -2230,6 +2230,32 @@ footer button:hover {
   color: var(--color-sky-blue);
 }
 
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 14px;
+  color: var(--color-sky-blue);
+  font-size: 0.86rem;
+}
+
+.footer-contact-item > svg {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  margin-top: 2px;
+  color: var(--color-royal-blue);
+}
+
+.footer-contact-item > p {
+  margin-bottom: 0;
+}
+
+.footer-contact-item > a {
+  color: inherit;
+  overflow-wrap: anywhere;
+}
+
 .confident {
   padding: 0 30px 30px 0;
 }

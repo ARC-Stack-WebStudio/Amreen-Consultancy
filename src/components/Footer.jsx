@@ -1,4 +1,6 @@
 import Brand from "./Brand";
+import { Mail, MapPin, Phone } from "lucide-react";
+
 export default function Footer({ navigate }) {
   const Link = ({ to, children }) => (
     <button onClick={() => navigate(to)}>{children}</button>
@@ -29,12 +31,22 @@ export default function Footer({ navigate }) {
           </div>
           
           <div className="col-12 col-lg-3">
-            <h3>Address</h3>
-            <p className="footer-description">Philips Smart Light Hub, Shop No 2, Siyara Elite, Kalyan - Bhiwandi Rd,
-              opposite BPCL Petrol Pump, Sapna Industrial Estate, Naka, Gove, Kalyan, Maharashtra 421311</p>
+            {/* <h3>Address</h3> */}
+            <div className="footer-contact-item">
+              <MapPin aria-hidden="true" />
+              <p className="footer-description">Amreen Consultancy, Shop No 3, Siyara Elite, Kalyan - Bhiwandi Rd,
+                opposite BPCL Petrol Pump, Sapna Industrial Estate, Naka, Gove, Kalyan, Maharashtra 421311</p>
+            </div>
 
-            <h3>Contact: <a href="tel:+919820000000">+91 98200 00000</a> </h3>
-            <h3>Email: <a href="mailto:info@amreenconsultancy.com">info@amreenconsultancy.com</a></h3>
+            {/* <h3>Contact</h3> */}
+            <div className="footer-contact-item">
+              <Phone aria-hidden="true" />
+              <a href="tel:+919152217742">+91 91522 17742</a>
+            </div>
+            <div className="footer-contact-item">
+              <Mail aria-hidden="true" />
+              <a href="mailto:info@amreenconsultancy.com">info@amreenconsultancy.com</a>
+            </div>
 
             {/* <button
               className="footer-contact"
