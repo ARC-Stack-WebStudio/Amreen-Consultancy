@@ -193,7 +193,7 @@ export default function About({ navigate }) {
         <div className="about-shell">
           <div className="about-purpose__intro" data-about-reveal>
             <p className="about-eyebrow about-eyebrow--light">
-              Our purpose
+              Our Purpose
             </p>
             <h2 id="about-purpose-title">
               A clear purpose and responsible recruitment.
@@ -318,7 +318,7 @@ export default function About({ navigate }) {
       >
         <div className="about-shell about-commitment__layout">
           <div data-about-reveal>
-            <p className="about-eyebrow">Our commitment</p>
+            <p className="about-eyebrow">Our Commitment</p>
             <h2 id="about-commitment-title">
               Committed to effective workforce connections.
             </h2>

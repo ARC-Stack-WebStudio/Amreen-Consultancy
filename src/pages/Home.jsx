@@ -236,7 +236,8 @@ export default function Home({ navigate }) {
           </div>
         </div>
       </section>
-      <section className="section testimonials surface">
+
+      {/* <section className="section testimonials surface">
         <div className="container">
           <SectionTitle
             eyebrow="Stories to come"
@@ -259,7 +260,8 @@ export default function Home({ navigate }) {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
+
       <section className="contact-section section" id="contact">
         <div className="container">
           <div className="row ">

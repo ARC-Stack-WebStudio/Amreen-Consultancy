@@ -3341,7 +3341,8 @@ footer button:hover {
   }
 
   .construction-hero-placeholder {
-    min-height: 300px
+    min-height: 300px;
+    margin-top: 14px
   }
 
   .construction-intro-visual {

@@ -27,15 +27,21 @@ export default function Footer({ navigate }) {
             <Link to="candidates">Candidate support</Link>
             <Link to="contact">Share your profile</Link>
           </div>
+          
           <div className="col-12 col-lg-3">
-            <h3>Let’s connect</h3>
-            <p className="footer-description">Discuss your recruitment or career requirements.</p>
-            <button
+            <h3>Address</h3>
+            <p className="footer-description">Philips Smart Light Hub, Shop No 2, Siyara Elite, Kalyan - Bhiwandi Rd,
+              opposite BPCL Petrol Pump, Sapna Industrial Estate, Naka, Gove, Kalyan, Maharashtra 421311</p>
+
+            <h3>Contact: <a href="tel:+919820000000">+91 98200 00000</a> </h3>
+            <h3>Email: <a href="mailto:info@amreenconsultancy.com">info@amreenconsultancy.com</a></h3>
+
+            {/* <button
               className="footer-contact"
               onClick={() => navigate("contact")}
             >
-              Contact our team →
-            </button>
+              Contact →
+            </button> */}
           </div>
         </div>
         <div className="footer-bottom">
