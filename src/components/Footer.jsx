@@ -44,8 +44,8 @@ export default function Footer({ navigate }) {
               <a href="tel:+919152217742">+91 91522 17742</a>
             </div>
             <div className="footer-contact-item">
-              <Mail aria-hidden="true" />
-              <a href="mailto:info@amreenconsultancy.com">info@amreenconsultancy.com</a>
+              {/* <Mail aria-hidden="true" /> */}
+              {/* <a href="mailto:info@amreenconsultancy.com">info@amreenconsultancy.com</a> */}
             </div>
 
             {/* <button
