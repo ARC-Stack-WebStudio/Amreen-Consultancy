@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Quote } from "lucide-react";
 import SectionTitle from "../components/SectionTitle";
+
 import {
   BriefcaseBusiness,
   ChartNoAxesCombined,
