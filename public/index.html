@@ -8,6 +8,12 @@
       content="Amreen Consultancy connects talented professionals with global career opportunities."
     />
     <title>Amreen Consultancy | Overseas Recruitment</title>
+    <script>
+      const redirect = new URLSearchParams(window.location.search).get('redirect');
+      if (redirect && redirect.startsWith('/Amreen-Consultancy/')) {
+        window.history.replaceState(null, '', redirect);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
