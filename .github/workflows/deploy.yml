@@ -32,6 +32,10 @@ jobs:
         run: npm ci
       - name: Build production app
         run: npm run build
+      - name: Verify Pages build output
+        run: |
+          test -f build/index.html
+          node -e "const fs=require('fs');const path=require('path');const html=fs.readFileSync('build/index.html','utf8');const base='/Amreen-Consultancy/';const urls=[...html.matchAll(/(?:src|href)=\"([^\"]+)\"/g)].map(([,url])=>url).filter(url=>url.startsWith(base));if(!urls.some(url=>url.endsWith('.js'))||!urls.some(url=>url.endsWith('.css'))||urls.some(url=>!fs.existsSync(path.join('build',url.slice(base.length))))){console.error('Missing project-prefixed JavaScript or CSS asset in build output');process.exit(1)}"
       - name: Upload production build
         uses: actions/upload-pages-artifact@v3
         with:
